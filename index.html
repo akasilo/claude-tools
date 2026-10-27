@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Claude 스킬·MCP 모음</title>
 <meta name="description" content="Claude에서 쓸 만한 GitHub 스킬·MCP·플러그인 저장소를 별 개수 순으로 모은 목록">
-<meta name="theme-color" content="#f9fbfc">
+<meta name="theme-color" content="#eaf0f3">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -13,10 +13,12 @@
    Face: IBM Plex Mono for repository IDs only; stars bar in --chart-1 is the main data element.
    Grid (1440): sidebar 228 + sheet (1440-228-8 = 1204) with 24 padding → content 1156. One gap: 24. */
 :root{
-  --ground:#f9fbfc; --surface:#ffffff; --raised:#f4f6f8; --active:#ebedee;
-  --border:#e8eaec; --rule:#f0f1f2; --control:#cdced1;
-  --text:#131416; --muted:#5d5f60; --accent:#1b6c80;
-  --positive:#1e7b4f; --chart-1:#1b6c80; --chart-track:#eef1f2;
+  --ground:#eaf0f3; --surface:#ffffff; --raised:#f2f5f7; --active:#dde5ea;
+  --border:#dce2e6; --rule:#e9edf0; --control:#c3c9ce;
+  --text:#131416; --muted:#4f5558; --accent:#0e7490; --accent-hover:#0b5f77;
+  --positive:#15803d; --chart-1:#0e7490; --chart-track:#dde6ea;
+  --c-all:#131416; --c-design:#be185d; --c-mcp:#1d4ed8; --c-skill:#0e7490; --c-plugin:#c2410c; --c-tool:#166534; --c-list:#475569; --c-dev:#a16207;
+  --b-all:#dde5ea; --b-design:#fce7f1; --b-mcp:#e0e9fd; --b-skill:#dff3f8; --b-plugin:#fdebe1; --b-tool:#e2f5e8; --b-list:#e6ebf0; --b-dev:#fbf1dc;
   --pill-neutral-bg:#ebedee; --pill-neutral-ink:#353736;
   --pill-design-bg:#e3f1f4; --pill-design-ink:#124a58;
   --radius-card:8px; --radius-control:6px; --radius-sheet:16px; --sheet-inset:8px;
@@ -49,7 +51,8 @@ svg.i{width:16px;height:16px;flex:none;fill:none;stroke:currentColor;stroke-widt
 .nav{display:flex;align-items:center;gap:10px;height:32px;padding:0 8px;border:0;border-radius:8px;background:transparent;color:var(--text);text-align:left;cursor:pointer;text-decoration:none;font-size:var(--fs-body)}
 .nav svg.i{color:var(--muted)}
 .nav:hover{background:var(--raised)}
-.nav[aria-current="true"]{background:var(--active);font-weight:500}
+.nav svg.i{color:var(--c)}
+.nav[aria-current="true"]{background:var(--b);color:var(--c);font-weight:600}
 .side .foot{margin-top:auto;padding:0 8px;font-size:var(--fs-small);color:var(--muted)}
 .side .foot a{color:var(--muted)}
 
@@ -65,7 +68,7 @@ svg.i{width:16px;height:16px;flex:none;fill:none;stroke:currentColor;stroke-widt
 #clear{position:absolute;right:4px;top:50%;transform:translateY(-50%);width:26px;height:26px;display:grid;place-items:center;border:0;border-radius:4px;background:transparent;color:var(--muted);cursor:pointer}
 #clear:hover{background:var(--raised);color:var(--text)}
 
-.sheet{min-width:0;min-height:0;overflow-y:auto;background:var(--surface);border:1px solid #eaeaea;border-radius:var(--radius-sheet)}
+.sheet{min-width:0;min-height:0;overflow-y:auto;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sheet)}
 .content{padding:var(--pad);max-width:1180px}
 
 /* Title row */
@@ -89,33 +92,37 @@ h1{margin:0;font-size:var(--fs-title);font-weight:600;letter-spacing:-.01em;line
 
 /* Table */
 table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
-thead th{height:40px;padding:0 12px;text-align:left;font-size:var(--fs-small);font-weight:500;color:var(--muted);white-space:nowrap}
+thead th{height:40px;padding:0 12px;text-align:left;font-size:var(--fs-small);font-weight:600;color:var(--muted);white-space:nowrap}
 thead th.num{text-align:right}
 tbody tr{border-top:1px solid var(--rule)}
 tbody tr:first-child{border-top:0}
 tbody tr:hover{background:#fafbfc}
 td{padding:14px 12px;vertical-align:middle}
-td.rank{width:48px;color:var(--muted);text-align:right;padding-right:4px}
+td.rank{width:48px;color:var(--muted);text-align:right;padding-right:4px;font-weight:500}
+tr.lead td.rank{color:var(--accent);font-weight:700;font-size:15px}
 td.repo{min-width:0}
-.rid{font-family:var(--mono);font-size:14px;font-weight:500;color:var(--text);text-decoration:none;overflow-wrap:anywhere}
+.rid{font-family:var(--mono);font-size:14px;font-weight:600;color:#0b4f8a;text-decoration:none;overflow-wrap:anywhere}
 .rid .own{color:var(--muted);font-weight:400}
 .rid:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
 .rdesc{margin:3px 0 0;color:var(--text);font-size:var(--fs-body);max-width:62ch}
 td.kind{white-space:nowrap}
 .pill{display:inline-flex;align-items:center;height:22px;padding:0 8px;border-radius:999px;background:var(--pill-neutral-bg);color:var(--pill-neutral-ink);font-size:var(--fs-small);margin:2px 4px 2px 0;white-space:nowrap}
-.pill.design{background:var(--pill-design-bg);color:var(--pill-design-ink)}
+.pill.t-skill{background:var(--b-skill);color:var(--c-skill)}.pill.t-mcp{background:var(--b-mcp);color:var(--c-mcp)}.pill.t-plugin{background:var(--b-plugin);color:var(--c-plugin)}.pill.t-tool{background:var(--b-tool);color:var(--c-tool)}.pill.t-list{background:var(--b-list);color:var(--c-list)}.pill.t-dev{background:var(--b-dev);color:var(--c-dev)}
+.pill{font-weight:500}
+.pill.design{background:var(--b-design);color:var(--c-design)}
 .cat{color:var(--muted);font-size:13px}
 td.stars{width:200px;text-align:right;white-space:nowrap}
 .sv{display:inline-flex;align-items:center;gap:10px;justify-content:flex-end}
-.bar{width:72px;height:6px;border-radius:3px;background:var(--chart-track);overflow:hidden}
-.bar i{display:block;height:100%;background:var(--chart-1);border-radius:3px}
+.bar{width:80px;height:8px;border-radius:4px;background:var(--chart-track);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--chart-1);border-radius:4px}
+.num{font-weight:600}
 .num{font-size:14px;min-width:64px;text-align:right}
 .sv .meta{display:none}
 td.act{width:92px;text-align:right;padding-right:0}
-.copy{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:var(--control-height);min-width:76px;padding:0 10px;border:1px solid var(--control);border-radius:var(--radius-control);background:var(--surface);cursor:pointer;font-size:13px;font-weight:500;transition:background-color .12s,border-color .12s,color .12s}
-.copy:hover{background:var(--raised)}
+.copy{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:var(--control-height);min-width:76px;padding:0 10px;border:1px solid var(--accent);border-radius:var(--radius-control);background:var(--accent);color:#fff;cursor:pointer;font-size:13px;font-weight:600;transition:background-color .12s,border-color .12s,color .12s}
+.copy:hover{background:var(--accent-hover);border-color:var(--accent-hover)}
 .copy:active{transform:translateY(1px)}
-.copy.done{border-color:var(--positive);color:var(--positive);background:#f1faf4}
+.copy.done{border-color:var(--positive);color:#fff;background:var(--positive)}
 
 .empty{padding:48px 12px;text-align:left}
 .empty h2{margin:0 0 4px;font-size:var(--fs-section);font-weight:600}
@@ -144,7 +151,7 @@ td.act{width:92px;text-align:right;padding-right:0}
   .tabs{display:flex;gap:20px;overflow-x:auto;scrollbar-width:none;margin-top:16px;border-bottom:1px solid var(--border)}
   .tabs::-webkit-scrollbar{display:none}
   .tab{flex:none;height:40px;padding:0;border:0;background:transparent;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;font-size:var(--fs-body)}
-  .tab[aria-selected="true"]{color:var(--text);font-weight:600;border-bottom-color:var(--accent)}
+  .tab[aria-selected="true"]{color:var(--c);font-weight:600;border-bottom-color:var(--c)}
   .toolbar{margin-top:12px;border-bottom:0;padding-bottom:4px}
   thead{display:none}
   table,tbody{display:block}
@@ -260,9 +267,10 @@ const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"
 const ico=(id,cls="i")=>`<svg class="${cls}" aria-hidden="true"><use href="#${id}"/></svg>`;
 const viewFromHash=()=>{const h=location.hash.slice(1);return VIEWS.some(v=>v.id===h)?h:"all"};
 
+function typeClass(t){if(t.startsWith("MCP"))return"t-mcp";if(t.startsWith("스킬"))return"t-skill";if(t.startsWith("플러그인"))return"t-plugin";if(t.startsWith("도구"))return"t-tool";if(t.startsWith("모음집"))return"t-list";return"t-dev"}
 function renderNav(){
-  $("#nav").innerHTML=`<h2>분류</h2>`+VIEWS.map(v=>`<button class="nav" type="button" data-id="${v.id}" aria-current="${v.id===view}">${ico(v.icon)}${v.label}</button>`).join("");
-  $("#tabs").innerHTML=VIEWS.map(v=>`<button class="tab" type="button" role="tab" data-id="${v.id}" aria-selected="${v.id===view}">${v.label}</button>`).join("");
+  $("#nav").innerHTML=`<h2>분류</h2>`+VIEWS.map(v=>`<button class="nav" type="button" data-id="${v.id}" style="--c:var(--c-${v.id});--b:var(--b-${v.id})" aria-current="${v.id===view}">${ico(v.icon)}${v.label}</button>`).join("");
+  $("#tabs").innerHTML=VIEWS.map(v=>`<button class="tab" type="button" role="tab" data-id="${v.id}" style="--c:var(--c-${v.id})" aria-selected="${v.id===view}">${v.label}</button>`).join("");
 }
 
 function filtered(){
@@ -285,10 +293,10 @@ function render(){
     const url="https://github.com/"+i.name,[own,repo]=i.name.split("/");
     const w=Math.max(4,Math.round(Math.sqrt(i.stars/maxStars)*100));
     const cats=i.category.split("·").map(c=>c==="웹디자인"?`<span class="pill design">웹디자인</span>`:`<span class="cat">${esc(c)}</span>`).join(" ");
-    return `<tr>
+    return `<tr${i.rank<=3&&sort==="stars"?' class="lead"':''}>
       <td class="rank">${i.rank}</td>
       <td class="repo"><a class="rid" href="${url}" target="_blank" rel="noopener"><span class="own">${esc(own)}/</span>${esc(repo)}</a><p class="rdesc">${esc(i.desc)}</p></td>
-      <td class="kind"><span class="pill">${esc(i.type)}</span><br>${cats}</td>
+      <td class="kind"><span class="pill ${typeClass(i.type)}">${esc(i.type)}</span><br>${cats}</td>
       <td class="stars"><span class="sv"><span class="bar" aria-hidden="true"><i style="width:${w}%"></i></span><span class="num">${fmt(i.stars)}</span><span class="meta">· ${esc(i.type)} · ${esc(i.category)}</span></span></td>
       <td class="act"><button class="copy" type="button" data-url="${url}" aria-label="${esc(i.name)} 링크 복사">${ico("i-copy")}<span>복사</span></button></td>
     </tr>`;
