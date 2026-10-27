@@ -1,0 +1,811 @@
+{
+ "updated": "2026-10-27",
+ "minStars": 5000,
+ "items": [
+  {
+   "name": "obra/superpowers",
+   "stars": 301262,
+   "type": "스킬",
+   "category": "개발 방법론",
+   "desc": "에이전트용 스킬 프레임워크와 소프트웨어 개발 방법론 모음"
+  },
+  {
+   "name": "affaan-m/ECC",
+   "stars": 275463,
+   "type": "스킬·플러그인",
+   "category": "에이전트 최적화",
+   "desc": "Claude Code 등 에이전트의 스킬·메모리·보안 성능 최적화 시스템"
+  },
+  {
+   "name": "anthropics/skills",
+   "stars": 179989,
+   "type": "스킬",
+   "category": "공식",
+   "desc": "Anthropic 공식 Agent Skills 저장소(docx·pptx·xlsx·pdf·프론트엔드 디자인 등)"
+  },
+  {
+   "name": "DietrichGebert/ponytail",
+   "stars": 158659,
+   "type": "스킬",
+   "category": "코딩 스타일",
+   "desc": "에이전트가 군더더기 없이 간결한 코드를 쓰도록 하는 스킬"
+  },
+  {
+   "name": "farion1231/cc-switch",
+   "stars": 141522,
+   "type": "도구",
+   "category": "Claude Code 관리",
+   "desc": "Claude Code·Codex 등 설정과 공급자를 전환하는 데스크톱 앱"
+  },
+  {
+   "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+   "stars": 133952,
+   "type": "스킬",
+   "category": "웹디자인",
+   "desc": "여러 플랫폼용 전문 UI/UX 디자인 지식을 제공하는 스킬"
+  },
+  {
+   "name": "Graphify-Labs/graphify",
+   "stars": 124779,
+   "type": "스킬·MCP",
+   "category": "코드 이해",
+   "desc": "코드베이스·문서·스키마를 질의 가능한 지식 그래프로 변환"
+  },
+  {
+   "name": "browser-use/browser-use",
+   "stars": 119276,
+   "type": "MCP·라이브러리",
+   "category": "브라우저 자동화",
+   "desc": "AI 에이전트용 브라우저 자동화 라이브러리(MCP 지원)"
+  },
+  {
+   "name": "JuliusBrussee/caveman",
+   "stars": 110604,
+   "type": "스킬",
+   "category": "토큰 절약",
+   "desc": "말투를 줄여 토큰을 약 65% 절약하는 스킬"
+  },
+  {
+   "name": "addyosmani/agent-skills",
+   "stars": 103439,
+   "type": "스킬",
+   "category": "개발 방법론",
+   "desc": "프로덕션 수준 엔지니어링 스킬 모음(Addy Osmani)"
+  },
+  {
+   "name": "nexu-io/open-design",
+   "stars": 99786,
+   "type": "스킬·플러그인",
+   "category": "웹디자인",
+   "desc": "오픈소스 Claude Design 대안 디자인 플러그인"
+  },
+  {
+   "name": "thedotmack/claude-mem",
+   "stars": 98595,
+   "type": "플러그인",
+   "category": "메모리",
+   "desc": "세션 간 맥락을 압축 저장해 다시 주입하는 메모리 플러그인"
+  },
+  {
+   "name": "Panniantong/Agent-Reach",
+   "stars": 94247,
+   "type": "도구·스킬",
+   "category": "웹 검색·수집",
+   "desc": "트위터·레딧·유튜브·GitHub 등 접근을 한 CLI로 제공"
+  },
+  {
+   "name": "Leonxlnx/taste-skill",
+   "stars": 93859,
+   "type": "스킬",
+   "category": "웹디자인",
+   "desc": "뻔한 AI 디자인 대신 감각 있는 UI를 만들게 하는 스킬"
+  },
+  {
+   "name": "punkpeye/awesome-mcp-servers",
+   "stars": 91774,
+   "type": "모음집",
+   "category": "MCP 목록",
+   "desc": "MCP 서버 큐레이션 목록(가장 유명)"
+  },
+  {
+   "name": "D4Vinci/Scrapling",
+   "stars": 90000,
+   "type": "MCP·라이브러리",
+   "category": "웹 스크래핑",
+   "desc": "단일 요청부터 대규모 크롤링까지 지원하는 스크래핑 프레임워크(MCP 포함)"
+  },
+  {
+   "name": "stablyai/orca",
+   "stars": 88025,
+   "type": "도구",
+   "category": "병렬 에이전트",
+   "desc": "여러 코딩 에이전트를 병렬로 돌리는 개발 환경"
+  },
+  {
+   "name": "unclecode/crawl4ai",
+   "stars": 86385,
+   "type": "MCP·라이브러리",
+   "category": "웹 스크래핑",
+   "desc": "웹사이트를 LLM용 깔끔한 마크다운으로 변환하는 크롤러"
+  },
+  {
+   "name": "Egonex-AI/Understand-Anything",
+   "stars": 85687,
+   "type": "스킬",
+   "category": "코드 이해",
+   "desc": "코드를 탐색 가능한 인터랙티브 지식 그래프로 변환"
+  },
+  {
+   "name": "rtk-ai/rtk",
+   "stars": 82719,
+   "type": "도구",
+   "category": "토큰 절약",
+   "desc": "개발 명령어 출력을 줄여 토큰 60~90% 절약하는 CLI 프록시"
+  },
+  {
+   "name": "tt-a1i/archify",
+   "stars": 80266,
+   "type": "스킬",
+   "category": "웹디자인·다이어그램",
+   "desc": "아이디어·계획·코드베이스를 인터랙티브 다이어그램으로 시각화"
+  },
+  {
+   "name": "ruvnet/ruflo",
+   "stars": 79679,
+   "type": "도구·MCP",
+   "category": "멀티 에이전트",
+   "desc": "멀티 에이전트 스웜 오케스트레이션(Claude Code 지원)"
+  },
+  {
+   "name": "ComposioHQ/awesome-claude-skills",
+   "stars": 78061,
+   "type": "모음집",
+   "category": "스킬 목록",
+   "desc": "Claude 스킬·리소스 큐레이션 목록"
+  },
+  {
+   "name": "headroomlabs-ai/headroom",
+   "stars": 77986,
+   "type": "도구·MCP",
+   "category": "토큰 절약",
+   "desc": "도구 출력·로그·RAG 청크를 LLM 전달 전에 압축"
+  },
+  {
+   "name": "career-ops-hq/career-ops",
+   "stars": 73674,
+   "type": "스킬",
+   "category": "취업",
+   "desc": "채용공고 스캔·이력서 맞춤 점수화 AI 구직 에이전트"
+  },
+  {
+   "name": "heygen-com/hyperframes",
+   "stars": 73594,
+   "type": "도구·스킬",
+   "category": "웹디자인·영상 제작",
+   "desc": "HTML로 작성해 영상으로 렌더링하는 에이전트용 프레임워크"
+  },
+  {
+   "name": "code-yeongyu/oh-my-openagent",
+   "stars": 69860,
+   "type": "플러그인",
+   "category": "멀티 에이전트",
+   "desc": "코딩 에이전트 오케스트레이션 레이어"
+  },
+  {
+   "name": "shanraisshan/claude-code-best-practice",
+   "stars": 67012,
+   "type": "가이드",
+   "category": "Claude Code 활용",
+   "desc": "Claude Code로 에이전틱 엔지니어링하는 실전 가이드"
+  },
+  {
+   "name": "gsd-build/get-shit-done",
+   "stars": 64392,
+   "type": "스킬·명령어",
+   "category": "개발 방법론",
+   "desc": "Claude Code용 경량 메타 프롬프팅·스펙 주도 개발 시스템"
+  },
+  {
+   "name": "upstash/context7",
+   "stars": 63758,
+   "type": "MCP",
+   "category": "문서 검색",
+   "desc": "최신 라이브러리 문서를 에이전트에 제공하는 MCP"
+  },
+  {
+   "name": "mvanhorn/last30days-skill",
+   "stars": 63382,
+   "type": "스킬",
+   "category": "리서치",
+   "desc": "레딧·X·유튜브·HN 최근 30일 화제를 조사·요약"
+  },
+  {
+   "name": "sansan0/TrendRadar",
+   "stars": 63231,
+   "type": "MCP",
+   "category": "트렌드 모니터링",
+   "desc": "여러 플랫폼 여론·트렌드 수집·알림(MCP 지원)"
+  },
+  {
+   "name": "MemPalace/mempalace",
+   "stars": 59752,
+   "type": "MCP",
+   "category": "메모리",
+   "desc": "오픈소스 AI 장기 메모리 시스템"
+  },
+  {
+   "name": "hesreallyhim/awesome-claude-code",
+   "stars": 55188,
+   "type": "모음집",
+   "category": "Claude Code 목록",
+   "desc": "Claude Code 스킬·에이전트·플러그인 큐레이션 목록"
+  },
+  {
+   "name": "ayghri/i-have-adhd",
+   "stars": 54668,
+   "type": "스킬",
+   "category": "출력 스타일",
+   "desc": "답을 앞에 두고 읽기 쉽게 출력하게 하는 스킬"
+  },
+  {
+   "name": "blader/humanizer",
+   "stars": 54510,
+   "type": "스킬",
+   "category": "글쓰기",
+   "desc": "AI가 쓴 티가 나는 문장 패턴을 제거하는 스킬"
+  },
+  {
+   "name": "ChromeDevTools/chrome-devtools-mcp",
+   "stars": 54251,
+   "type": "MCP",
+   "category": "웹디자인·브라우저 디버깅",
+   "desc": "Chrome DevTools를 코딩 에이전트에 연결(공식)"
+  },
+  {
+   "name": "Imbad0202/academic-research-skills",
+   "stars": 50184,
+   "type": "스킬",
+   "category": "학술 연구",
+   "desc": "연구·집필·리뷰·수정·완성 학술 파이프라인 스킬"
+  },
+  {
+   "name": "HKUDS/nanobot",
+   "stars": 49481,
+   "type": "도구·MCP",
+   "category": "개인 에이전트",
+   "desc": "초경량 자체 호스팅 개인 AI 에이전트(MCP 지원)"
+  },
+  {
+   "name": "sickn33/agentic-awesome-skills",
+   "stars": 48505,
+   "type": "모음집",
+   "category": "스킬 목록",
+   "desc": "2,750개 이상 에이전트 스킬 탐색·관리"
+  },
+  {
+   "name": "alibaba/open-code-review",
+   "stars": 48284,
+   "type": "스킬·도구",
+   "category": "코드 리뷰",
+   "desc": "결정적 파이프라인+LLM 하이브리드 코드 리뷰"
+  },
+  {
+   "name": "K-Dense-AI/scientific-agent-skills",
+   "stars": 47845,
+   "type": "스킬",
+   "category": "과학 연구",
+   "desc": "검증된 과학 스킬 177종과 과학 DB 100여 개 연결"
+  },
+  {
+   "name": "DeusData/codebase-memory-mcp",
+   "stars": 47614,
+   "type": "MCP",
+   "category": "코드 이해",
+   "desc": "코드베이스를 지식 그래프로 인덱싱하는 MCP"
+  },
+  {
+   "name": "cathrynlavery/diagram-design",
+   "stars": 44391,
+   "type": "스킬",
+   "category": "웹디자인·다이어그램",
+   "desc": "편집 디자인 수준의 다이어그램 제작 스킬"
+  },
+  {
+   "name": "wshobson/agents",
+   "stars": 41719,
+   "type": "플러그인",
+   "category": "에이전트 모음",
+   "desc": "Claude Code용 멀티 하네스 플러그인 마켓플레이스"
+  },
+  {
+   "name": "luongnv89/claude-howto",
+   "stars": 41108,
+   "type": "가이드",
+   "category": "Claude Code 활용",
+   "desc": "기초부터 고급 에이전트까지 예제 중심 Claude Code 가이드"
+  },
+  {
+   "name": "github/awesome-copilot",
+   "stars": 40414,
+   "type": "모음집",
+   "category": "스킬 목록",
+   "desc": "커뮤니티 지침·에이전트·스킬 모음(Copilot 중심, 재사용 가능)"
+  },
+  {
+   "name": "bytedance/UI-TARS-desktop",
+   "stars": 39400,
+   "type": "MCP·도구",
+   "category": "컴퓨터 사용",
+   "desc": "멀티모달 AI 에이전트 스택(데스크톱 제어)"
+  },
+  {
+   "name": "microsoft/playwright-mcp",
+   "stars": 38699,
+   "type": "MCP",
+   "category": "웹디자인·브라우저 자동화",
+   "desc": "Playwright 브라우저 자동화 MCP(마이크로소프트 공식)"
+  },
+  {
+   "name": "Yeachan-Heo/oh-my-claudecode",
+   "stars": 38669,
+   "type": "플러그인",
+   "category": "멀티 에이전트",
+   "desc": "팀 단위 멀티 에이전트 오케스트레이션(Claude Code)"
+  },
+  {
+   "name": "Nutlope/hallmark",
+   "stars": 38076,
+   "type": "스킬",
+   "category": "웹디자인",
+   "desc": "AI가 만든 티가 나는 디자인을 막아 주는 스킬"
+  },
+  {
+   "name": "DayuanJiang/next-ai-draw-io",
+   "stars": 36437,
+   "type": "MCP",
+   "category": "웹디자인·다이어그램",
+   "desc": "대화로 draw.io 다이어그램을 그리고 편집"
+  },
+  {
+   "name": "VoltAgent/awesome-agent-skills",
+   "stars": 36367,
+   "type": "모음집",
+   "category": "스킬 목록",
+   "desc": "공식팀·커뮤니티 에이전트 스킬 1,000개 이상 모음"
+  },
+  {
+   "name": "virgiliojr94/book-to-skill",
+   "stars": 36112,
+   "type": "스킬",
+   "category": "학습",
+   "desc": "기술서 PDF를 Claude Code 스킬로 변환"
+  },
+  {
+   "name": "github/github-mcp-server",
+   "stars": 33998,
+   "type": "MCP",
+   "category": "개발 도구",
+   "desc": "GitHub 공식 MCP 서버"
+  },
+  {
+   "name": "anthropics/claude-plugins-official",
+   "stars": 33702,
+   "type": "플러그인",
+   "category": "공식",
+   "desc": "Anthropic 관리 공식 Claude Code 플러그인 디렉터리"
+  },
+  {
+   "name": "vercel-labs/agent-skills",
+   "stars": 32756,
+   "type": "스킬",
+   "category": "웹디자인·웹 개발",
+   "desc": "Vercel 공식 에이전트 스킬 모음(React·Next.js 등)"
+  },
+  {
+   "name": "topoteretes/cognee",
+   "stars": 32756,
+   "type": "MCP",
+   "category": "메모리",
+   "desc": "에이전트용 오픈소스 장기 메모리 플랫폼"
+  },
+  {
+   "name": "mksglu/context-mode",
+   "stars": 32509,
+   "type": "MCP",
+   "category": "토큰 절약",
+   "desc": "도구 출력을 샌드박스해 컨텍스트 98% 절감"
+  },
+  {
+   "name": "JCodesMore/ai-website-cloner-template",
+   "stars": 32470,
+   "type": "스킬·템플릿",
+   "category": "웹디자인",
+   "desc": "명령 한 번으로 웹사이트를 복제하는 템플릿"
+  },
+  {
+   "name": "googleworkspace/cli",
+   "stars": 31891,
+   "type": "도구·스킬",
+   "category": "구글 워크스페이스",
+   "desc": "드라이브·Gmail·캘린더·시트·문서용 공식 CLI"
+  },
+  {
+   "name": "nanocoai/nanoclaw",
+   "stars": 30889,
+   "type": "도구",
+   "category": "개인 에이전트",
+   "desc": "컨테이너 기반 경량 개인 에이전트(메시징·메모리·작업)"
+  },
+  {
+   "name": "oraios/serena",
+   "stars": 30756,
+   "type": "MCP",
+   "category": "코드 이해",
+   "desc": "의미 기반 검색·편집을 제공하는 코딩용 MCP"
+  },
+  {
+   "name": "tirth8205/code-review-graph",
+   "stars": 30574,
+   "type": "MCP",
+   "category": "코드 리뷰",
+   "desc": "리뷰용 컨텍스트를 줄이는 로컬 코드 그래프"
+  },
+  {
+   "name": "alirezarezvani/claude-skills",
+   "stars": 28727,
+   "type": "스킬",
+   "category": "스킬 모음",
+   "desc": "380개 이상 스킬·에이전트·명령 모음"
+  },
+  {
+   "name": "ahujasid/blender-mcp",
+   "stars": 28609,
+   "type": "MCP",
+   "category": "3D",
+   "desc": "Claude로 Blender 3D를 제어"
+  },
+  {
+   "name": "PrefectHQ/fastmcp",
+   "stars": 27666,
+   "type": "SDK",
+   "category": "MCP 개발",
+   "desc": "파이썬으로 MCP 서버·클라이언트를 빠르게 구축"
+  },
+  {
+   "name": "OthmanAdi/planning-with-files",
+   "stars": 27649,
+   "type": "스킬",
+   "category": "계획 관리",
+   "desc": "파일 기반 계획으로 장시간 작업 관리"
+  },
+  {
+   "name": "alchaincyf/huashu-design",
+   "stars": 27632,
+   "type": "스킬",
+   "category": "웹디자인",
+   "desc": "HTML 기반 디자인 스킬"
+  },
+  {
+   "name": "phuryn/pm-skills",
+   "stars": 27418,
+   "type": "스킬",
+   "category": "기획·PM",
+   "desc": "제품관리 스킬·명령 100개 이상"
+  },
+  {
+   "name": "JimLiu/baoyu-skills",
+   "stars": 26999,
+   "type": "스킬",
+   "category": "콘텐츠 제작",
+   "desc": "글·이미지·슬라이드 등 콘텐츠 제작 스킬 모음"
+  },
+  {
+   "name": "agentskills/agentskills",
+   "stars": 26684,
+   "type": "문서",
+   "category": "스킬 표준",
+   "desc": "Agent Skills 사양과 공식 문서"
+  },
+  {
+   "name": "titanwings/distilly",
+   "stars": 26089,
+   "type": "스킬",
+   "category": "스킬 제작",
+   "desc": "사람의 사고방식을 재사용 가능한 스킬로 추출"
+  },
+  {
+   "name": "pascalorg/editor",
+   "stars": 25137,
+   "type": "MCP",
+   "category": "웹디자인·3D",
+   "desc": "3D 건축 에디터(CLI·MCP 도구 제공)"
+  },
+  {
+   "name": "modelcontextprotocol/python-sdk",
+   "stars": 24683,
+   "type": "SDK",
+   "category": "MCP 개발",
+   "desc": "공식 MCP 파이썬 SDK"
+  },
+  {
+   "name": "NVIDIA/SkillSpector",
+   "stars": 22579,
+   "type": "도구",
+   "category": "보안",
+   "desc": "스킬의 프롬프트 인젝션·데이터 유출 위험 검사"
+  },
+  {
+   "name": "KKKKhazix/khazix-skills",
+   "stars": 21684,
+   "type": "스킬",
+   "category": "스킬 모음",
+   "desc": "글쓰기·정리 등 다양한 스킬 모음"
+  },
+  {
+   "name": "Evil0ctal/Douyin_TikTok_Download_API",
+   "stars": 20122,
+   "type": "MCP",
+   "category": "영상 다운로드",
+   "desc": "틱톡·더우인 영상 수집(MCP 지원)"
+  },
+  {
+   "name": "citrolabs/ego-lite",
+   "stars": 20003,
+   "type": "도구",
+   "category": "브라우저 자동화",
+   "desc": "로그인 상태를 유지한 채 자동화하는 에이전트용 브라우저"
+  },
+  {
+   "name": "teng-lin/notebooklm-py",
+   "stars": 19913,
+   "type": "스킬",
+   "category": "리서치",
+   "desc": "NotebookLM 비공식 파이썬 API·스킬"
+  },
+  {
+   "name": "latent-spaces/brag",
+   "stars": 18934,
+   "type": "스킬",
+   "category": "영상 제작",
+   "desc": "만든 프로젝트를 런칭 영상으로 자동 제작"
+  },
+  {
+   "name": "microsoft/SkillOpt",
+   "stars": 18710,
+   "type": "도구",
+   "category": "스킬 제작",
+   "desc": "에이전트 스킬을 검증 기반으로 학습·개선"
+  },
+  {
+   "name": "microsoft/mcp-for-beginners",
+   "stars": 17213,
+   "type": "가이드",
+   "category": "MCP 학습",
+   "desc": "MCP 입문 커리큘럼(마이크로소프트)"
+  },
+  {
+   "name": "GLips/Figma-Context-MCP",
+   "stars": 16078,
+   "type": "MCP",
+   "category": "웹디자인",
+   "desc": "Figma 레이아웃 정보를 코딩 에이전트에 제공"
+  },
+  {
+   "name": "AgriciDaniel/claude-obsidian",
+   "stars": 15872,
+   "type": "스킬·MCP",
+   "category": "노트·지식관리",
+   "desc": "옵시디언과 Claude Code로 만드는 세컨드 브레인"
+  },
+  {
+   "name": "eigent-ai/eigent",
+   "stars": 15670,
+   "type": "도구",
+   "category": "코워크",
+   "desc": "로컬 무료 코워크 데스크톱 앱"
+  },
+  {
+   "name": "travisvn/awesome-claude-skills",
+   "stars": 15568,
+   "type": "모음집",
+   "category": "스킬 목록",
+   "desc": "Claude 스킬·도구 큐레이션 목록"
+  },
+  {
+   "name": "yusufkaraaslan/Skill_Seekers",
+   "stars": 15222,
+   "type": "도구",
+   "category": "스킬 제작",
+   "desc": "문서 사이트·GitHub·PDF를 Claude 스킬로 변환"
+  },
+  {
+   "name": "nidhinjs/prompt-master",
+   "stars": 15074,
+   "type": "스킬",
+   "category": "프롬프트",
+   "desc": "어떤 AI 도구용이든 정확한 프롬프트 작성"
+  },
+  {
+   "name": "xpzouying/xiaohongshu-mcp",
+   "stars": 14992,
+   "type": "MCP",
+   "category": "SNS",
+   "desc": "샤오홍슈(RedNote) 연동 MCP"
+  },
+  {
+   "name": "NevaMind-AI/memU",
+   "stars": 14561,
+   "type": "MCP",
+   "category": "메모리",
+   "desc": "여러 에이전트에서 쓰는 개인 메모리"
+  },
+  {
+   "name": "CoplayDev/unity-mcp",
+   "stars": 14224,
+   "type": "MCP",
+   "category": "게임 개발",
+   "desc": "Unity 에디터를 AI로 제어"
+  },
+  {
+   "name": "wanshuiyin/Auto-claude-code-research-in-sleep",
+   "stars": 14043,
+   "type": "스킬",
+   "category": "ML 연구",
+   "desc": "자율 ML 연구·리뷰·실험 스킬"
+  },
+  {
+   "name": "Vincentwei1021/video-shotcraft",
+   "stars": 14002,
+   "type": "스킬",
+   "category": "웹디자인·영상 제작",
+   "desc": "Remotion으로 시네마틱 제품 홍보 영상 제작"
+  },
+  {
+   "name": "Orchestra-Research/AI-Research-SKILLs",
+   "stars": 13950,
+   "type": "스킬",
+   "category": "AI 연구",
+   "desc": "AI 연구·엔지니어링 스킬 라이브러리"
+  },
+  {
+   "name": "modelcontextprotocol/typescript-sdk",
+   "stars": 13661,
+   "type": "SDK",
+   "category": "MCP 개발",
+   "desc": "공식 MCP 타입스크립트 SDK"
+  },
+  {
+   "name": "Jeffallan/claude-skills",
+   "stars": 12062,
+   "type": "스킬",
+   "category": "풀스택 개발",
+   "desc": "풀스택 개발자용 전문 스킬 67종"
+  },
+  {
+   "name": "tadata-org/fastapi_mcp",
+   "stars": 11968,
+   "type": "SDK",
+   "category": "MCP 개발",
+   "desc": "FastAPI 엔드포인트를 MCP 도구로 노출"
+  },
+  {
+   "name": "mrexodia/ida-pro-mcp",
+   "stars": 10933,
+   "type": "MCP",
+   "category": "리버스 엔지니어링",
+   "desc": "IDA Pro와 LLM을 연결하는 MCP"
+  },
+  {
+   "name": "mcp-use/mcp-use",
+   "stars": 10630,
+   "type": "SDK",
+   "category": "MCP 개발",
+   "desc": "MCP 앱·서버 풀스택 프레임워크"
+  },
+  {
+   "name": "SnailSploit/Claude-Red",
+   "stars": 9581,
+   "type": "스킬",
+   "category": "보안",
+   "desc": "공격 보안(모의해킹) 스킬 라이브러리"
+  },
+  {
+   "name": "awslabs/mcp",
+   "stars": 9518,
+   "type": "MCP",
+   "category": "클라우드",
+   "desc": "AWS 공식 MCP 서버 모음"
+  },
+  {
+   "name": "nexu-io/html-anything",
+   "stars": 9246,
+   "type": "도구",
+   "category": "웹디자인",
+   "desc": "로컬 AI가 HTML을 작성하는 에이전틱 HTML 편집기"
+  },
+  {
+   "name": "google-labs-code/stitch-skills",
+   "stars": 8609,
+   "type": "스킬",
+   "category": "웹디자인",
+   "desc": "Google Stitch MCP용 UI 디자인 스킬"
+  },
+  {
+   "name": "lastmile-ai/mcp-agent",
+   "stars": 8545,
+   "type": "SDK",
+   "category": "MCP 개발",
+   "desc": "MCP 기반 에이전트를 만드는 프레임워크"
+  },
+  {
+   "name": "firecrawl/firecrawl-mcp-server",
+   "stars": 7698,
+   "type": "MCP",
+   "category": "웹 스크래핑",
+   "desc": "Firecrawl 공식 MCP(검색·스크래핑)"
+  },
+  {
+   "name": "AgentDeskAI/browser-tools-mcp",
+   "stars": 7277,
+   "type": "MCP",
+   "category": "웹디자인·브라우저 디버깅",
+   "desc": "브라우저 로그·스크린샷을 에이전트에 전달"
+  },
+  {
+   "name": "grab/cursor-talk-to-figma-mcp",
+   "stars": 7072,
+   "type": "MCP",
+   "category": "웹디자인",
+   "desc": "AI가 Figma 디자인을 읽고 수정"
+  },
+  {
+   "name": "BrowserMCP/mcp",
+   "stars": 6989,
+   "type": "MCP",
+   "category": "브라우저 자동화",
+   "desc": "내 브라우저를 AI가 제어하는 MCP"
+  },
+  {
+   "name": "getsentry/XcodeBuildMCP",
+   "stars": 6260,
+   "type": "MCP",
+   "category": "iOS 개발",
+   "desc": "Xcode 프로젝트 빌드·실행 도구"
+  },
+  {
+   "name": "MinishLab/semble",
+   "stars": 5904,
+   "type": "MCP",
+   "category": "코드 검색",
+   "desc": "grep 대비 토큰 99% 적은 코드 검색"
+  },
+  {
+   "name": "Jakubantalik/transitions.dev",
+   "stars": 5820,
+   "type": "스킬",
+   "category": "웹디자인",
+   "desc": "43종 이상 UI 모션·트랜지션 스킬"
+  },
+  {
+   "name": "Klavis-AI/klavis",
+   "stars": 5791,
+   "type": "MCP",
+   "category": "통합 플랫폼",
+   "desc": "대규모로 MCP 도구를 연결하는 통합 플랫폼"
+  },
+  {
+   "name": "executeautomation/mcp-playwright",
+   "stars": 5674,
+   "type": "MCP",
+   "category": "브라우저 자동화",
+   "desc": "Playwright로 브라우저·API 자동화"
+  },
+  {
+   "name": "modelcontextprotocol/go-sdk",
+   "stars": 5279,
+   "type": "SDK",
+   "category": "MCP 개발",
+   "desc": "공식 MCP Go SDK"
+  }
+ ]
+}
