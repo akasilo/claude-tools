@@ -17,7 +17,7 @@
   --border:#dce2e6; --rule:#e9edf0; --control:#c3c9ce;
   --text:#131416; --muted:#4f5558; --accent:#0e7490; --accent-hover:#0b5f77;
   --positive:#15803d; --chart-1:#0e7490; --chart-track:#dde6ea;
-  --c-all:#131416; --c-design:#be185d; --c-ppt:#b45309; --c-card:#7e22ce; --c-mcp:#1d4ed8; --c-skill:#0e7490; --c-plugin:#c2410c; --c-tool:#166534; --c-list:#475569; --c-dev:#a16207;
+  --c-all:#131416; --c-design:#be185d; --c-ppt:#b45309; --c-card:#7e22ce; --c-mcp:#1d4ed8; --c-skill:#0e7490; --c-plugin:#c2410c; --c-tool:#166534; --c-list:#475569; --c-dev:#8a5300;
   --b-all:#dde5ea; --b-design:#fce7f1; --b-ppt:#fdf0dc; --b-card:#f3e8ff; --b-mcp:#e0e9fd; --b-skill:#dff3f8; --b-plugin:#fdebe1; --b-tool:#e2f5e8; --b-list:#e6ebf0; --b-dev:#fbf1dc;
   --pill-neutral-bg:#ebedee; --pill-neutral-ink:#353736;
   --pill-design-bg:#e3f1f4; --pill-design-ink:#124a58;
@@ -272,7 +272,7 @@ const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"
 const ico=(id,cls="i")=>`<svg class="${cls}" aria-hidden="true"><use href="#${id}"/></svg>`;
 const viewFromHash=()=>{const h=location.hash.slice(1);return VIEWS.some(v=>v.id===h)?h:"all"};
 
-function typeClass(t){if(t.startsWith("MCP"))return"t-mcp";if(t.startsWith("스킬"))return"t-skill";if(t.startsWith("플러그인"))return"t-plugin";if(t.startsWith("도구"))return"t-tool";if(t.startsWith("모음집"))return"t-list";return"t-dev"}
+function typeClass(t){if(t.startsWith("MCP"))return"t-mcp";if(t.startsWith("스킬"))return"t-skill";if(t.startsWith("플러그인"))return"t-plugin";if(t.startsWith("도구")||t.startsWith("라이브러리"))return"t-tool";if(t.startsWith("모음집"))return"t-list";return"t-dev"}
 function renderNav(){
   $("#nav").innerHTML=`<h2>분류</h2>`+VIEWS.map(v=>`<button class="nav" type="button" data-id="${v.id}" style="--c:var(--c-${v.id});--b:var(--b-${v.id})" aria-current="${v.id===view}">${ico(v.icon)}${v.label}</button>`).join("");
   $("#tabs").innerHTML=VIEWS.map(v=>`<button class="tab" type="button" role="tab" data-id="${v.id}" style="--c:var(--c-${v.id})" aria-selected="${v.id===view}">${v.label}</button>`).join("");
