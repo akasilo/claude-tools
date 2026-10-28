@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "minStars": 5000,
  "items": [
   {
@@ -374,6 +374,13 @@
    "desc": "AI가 생성한 코드를 안전하게 실행하는 탄력적 인프라"
   },
   {
+   "name": "binary-husky/gpt_academic",
+   "stars": 71568,
+   "type": "도구",
+   "category": "학술 연구·논문 작성",
+   "desc": "GPT·GLM 등 LLM으로 논문 읽기·교정·작성을 돕는 플러그인형 학술 인터페이스"
+  },
+  {
    "name": "code-yeongyu/oh-my-openagent",
    "stars": 70425,
    "type": "플러그인",
@@ -524,7 +531,7 @@
    "name": "K-Dense-AI/scientific-agent-skills",
    "stars": 55022,
    "type": "스킬",
-   "category": "과학 연구",
+   "category": "학술 연구·과학",
    "desc": "검증된 과학 스킬 177종과 과학 DB 100여 개 연결"
   },
   {
@@ -575,6 +582,13 @@
    "type": "라이브러리",
    "category": "RAG",
    "desc": "AI를 위한 문서 처리·RAG 프레임워크"
+  },
+  {
+   "name": "Yuan1z0825/nature-skills",
+   "stars": 51187,
+   "type": "스킬",
+   "category": "학술 연구·논문 작성",
+   "desc": "Nature 논문 수준의 학술 표현과 과학 그림 작성을 돕는 스킬"
   },
   {
    "name": "cloudflare/security-audit-skill",
@@ -776,7 +790,7 @@
    "name": "PDFMathTranslate/PDFMathTranslate",
    "stars": 37985,
    "type": "도구·MCP",
-   "category": "문서·번역",
+   "category": "학술 연구·논문 번역",
    "desc": "서식을 유지하며 PDF 논문을 번역하는 도구로 CLI/GUI/MCP를 지원"
   },
   {
@@ -1602,7 +1616,7 @@
    "name": "wanshuiyin/Auto-claude-code-research-in-sleep",
    "stars": 18209,
    "type": "스킬",
-   "category": "ML 연구",
+   "category": "학술 연구·AI 과학자",
    "desc": "자율 ML 연구·리뷰·실험 스킬"
   },
   {
@@ -1840,7 +1854,7 @@
    "name": "microsoft/RD-Agent",
    "stars": 15110,
    "type": "도구",
-   "category": "리서치",
+   "category": "학술 연구·AI 과학자",
    "desc": "데이터 기반 연구개발 과정을 AI가 자동화하는 에이전트"
   },
   {
@@ -1856,6 +1870,13 @@
    "type": "도구",
    "category": "개발 방법론",
    "desc": "Claude Code, Codex 등을 위한 에이전트 하네스."
+  },
+  {
+   "name": "SakanaAI/AI-Scientist",
+   "stars": 14818,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "완전 자동화된 개방형 과학 발견을 목표로 하는 AI 과학자 시스템"
   },
   {
    "name": "e2b-dev/E2B",
@@ -1931,7 +1952,7 @@
    "name": "Orchestra-Research/AI-Research-SKILLs",
    "stars": 14025,
    "type": "스킬",
-   "category": "AI 연구",
+   "category": "학술 연구·AI 연구",
    "desc": "AI 연구·엔지니어링 스킬 라이브러리"
   },
   {
@@ -1961,6 +1982,13 @@
    "type": "라이브러리",
    "category": "웹디자인",
    "desc": "에이전트가 다루기 좋게 만든, 자유롭게 바꿀 수 있는 오픈소스 디자인 시스템"
+  },
+  {
+   "name": "Imbad0202/academic-research-skills-codex",
+   "stars": 13678,
+   "type": "스킬",
+   "category": "학술 연구",
+   "desc": "사람이 함께 검토하는 연구 워크플로를 위한 Codex용 학술 연구 스킬 모음"
   },
   {
    "name": "EverMind-AI/EverOS",
@@ -2320,6 +2348,13 @@
    "desc": "스킬 자동 활성화·훅·에이전트 등 Claude Code 인프라 구성 예시를 보여 줍니다."
   },
   {
+   "name": "Companion-Inc/feynman",
+   "stars": 10035,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "오픈소스 AI 연구 에이전트"
+  },
+  {
    "name": "android/skills",
    "stars": 9946,
    "type": "스킬·모음집",
@@ -2423,6 +2458,13 @@
    "type": "도구",
    "category": "멀티 에이전트",
    "desc": "병렬 AI 에이전트 작업을 위한 Git worktree 관리 CLI"
+  },
+  {
+   "name": "Future-House/paper-qa",
+   "stars": 9493,
+   "type": "라이브러리",
+   "category": "학술 연구·논문 검색",
+   "desc": "과학 문서에서 인용과 함께 질문에 답하는 고정확도 RAG 라이브러리"
   },
   {
    "name": "LearningCircuit/local-deep-research",
@@ -2801,6 +2843,20 @@
    "type": "스킬",
    "category": "다이어그램",
    "desc": "다크 테마 시스템 아키텍처 다이어그램을 독립 HTML/SVG 파일로 생성합니다."
+  },
+  {
+   "name": "dwzhu-pku/PaperBanana",
+   "stars": 7480,
+   "type": "도구",
+   "category": "학술 연구·논문 그림",
+   "desc": "AI 과학자를 위한 학술 일러스트(논문 그림) 자동 생성 도구"
+  },
+  {
+   "name": "SakanaAI/AI-Scientist-v2",
+   "stars": 7420,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "에이전트 기반 트리 탐색으로 워크숍 수준의 과학 발견을 자동화하는 AI 과학자 v2"
   },
   {
    "name": "The-Vibe-Company/megaparse",
@@ -3310,8 +3366,15 @@
    "name": "Galaxy-Dawn/claude-scholar",
    "stars": 5918,
    "type": "스킬",
-   "category": "연구",
+   "category": "학술 연구",
    "desc": "학술 연구와 소프트웨어 개발을 돕는 반자동 연구 보조 구성"
+  },
+  {
+   "name": "SamuelSchmidgall/AgentLaboratory",
+   "stars": 5915,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "연구자가 아이디어를 구현하도록 돕는 엔드투엔드 자율 연구 워크플로"
   },
   {
    "name": "tigerless-labs/cost-xray",
@@ -3429,7 +3492,7 @@
    "name": "54yyyu/zotero-mcp",
    "stars": 5617,
    "type": "MCP",
-   "category": "연구",
+   "category": "학술 연구·문헌 관리",
    "desc": "Zotero 연구 라이브러리를 Claude 등 AI 도우미와 연결하는 MCP"
   },
   {
@@ -3447,6 +3510,13 @@
    "desc": "Claude를 더 잘 쓰기 위한 프롬프트 큐레이션"
   },
   {
+   "name": "business-science/ai-data-science-team",
+   "stars": 5478,
+   "type": "라이브러리",
+   "category": "학술 연구·데이터 분석",
+   "desc": "일반적인 데이터 과학 작업을 돕는 AI 에이전트 팀"
+  },
+  {
    "name": "breferrari/obsidian-mind",
    "stars": 5439,
    "type": "도구",
@@ -3457,7 +3527,7 @@
    "name": "zLanqing/codex-claude-academic-skills",
    "stars": 5409,
    "type": "스킬",
-   "category": "학술",
+   "category": "학술 연구",
    "desc": "논문 읽기·작성, PPT/Word 생성, 과학 계산을 위한 학술용 스킬 모음(중국어)"
   },
   {
@@ -3478,7 +3548,7 @@
    "name": "aipoch/open-science",
    "stars": 5381,
    "type": "도구",
-   "category": "리서치·학술",
+   "category": "학술 연구·과학",
    "desc": "스킬·MCP 도구와 추적 가능한 결과물을 갖춘 로컬 데스크톱 AI 연구 작업대"
   },
   {
@@ -3594,6 +3664,13 @@
    "desc": "AutoGen에서 이어진 오픈소스 에이전트 OS"
   },
   {
+   "name": "ahmetbersoz/chatgpt-prompts-for-academic-writing",
+   "stars": 5019,
+   "type": "모음집",
+   "category": "학술 연구·논문 작성",
+   "desc": "연구 아이디어 구상, 문장 다듬기, 문헌 검토, 연구 계획용 학술 글쓰기 프롬프트 모음"
+  },
+  {
    "name": "eugeniughelbur/obsidian-second-brain",
    "stars": 5008,
    "type": "스킬",
@@ -3606,6 +3683,532 @@
    "type": "MCP",
    "category": "검색",
    "desc": "웹 검색과 크롤링을 위한 Exa MCP 서버"
+  },
+  {
+   "name": "EvoScientist/EvoScientist",
+   "stars": 4919,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "스스로 진화하는 AI 과학자로 '바이브 리서치'를 수행하는 하네스"
+  },
+  {
+   "name": "brycewang-stanford/Auto-Empirical-Research-Skills",
+   "stars": 4808,
+   "type": "스킬·모음집",
+   "category": "학술 연구",
+   "desc": "사회과학 8개 분야 실증 연구를 다루는 2만 3천여 개 AI 에이전트 스킬 라이브러리"
+  },
+  {
+   "name": "ruc-datalab/DeepAnalyze",
+   "stars": 4757,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "데이터를 자동 분석하고 보고서를 작성하는 자율 데이터 과학용 에이전트형 LLM"
+  },
+  {
+   "name": "u14app/deep-research",
+   "stars": 4688,
+   "type": "도구·MCP",
+   "category": "학술 연구·딥 리서치",
+   "desc": "어떤 LLM으로든 딥 리서치를 하며 SSE API와 MCP 서버를 지원"
+  },
+  {
+   "name": "jupyterlab/jupyter-ai",
+   "stars": 4427,
+   "type": "도구",
+   "category": "학술 연구·데이터 분석",
+   "desc": "JupyterLab에서 AI 에이전트를 노트북과 연결하는 오픈소스 확장"
+  },
+  {
+   "name": "Adkid-Zephyr/anti-defensive-writing-Skill",
+   "stars": 4329,
+   "type": "스킬",
+   "category": "학술 연구·논문 작성",
+   "desc": "논문의 방어적 글쓰기를 막는 가벼운 학술 글쓰기 원칙 스킬과 프롬프트 팩(중·영)"
+  },
+  {
+   "name": "synthetic-sciences/openscience",
+   "stars": 4286,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "과학 연구를 위한 오픈소스 AI 워크벤치"
+  },
+  {
+   "name": "eseckel/ai-for-grant-writing",
+   "stars": 4194,
+   "type": "모음집",
+   "category": "학술 연구·연구비 신청",
+   "desc": "LLM으로 경쟁력 있는 연구비 신청서를 작성하는 데 쓸 자료 모음"
+  },
+  {
+   "name": "jordan-gibbs/hyperresearch",
+   "stars": 4176,
+   "type": "스킬·도구",
+   "category": "학술 연구·딥 리서치",
+   "desc": "Claude Code나 Codex를 검색 가능한 영구 위키를 가진 딥 리서치 에이전트로 바꿔 줌"
+  },
+  {
+   "name": "snap-stanford/Biomni",
+   "stars": 4025,
+   "type": "도구",
+   "category": "학술 연구·생명과학",
+   "desc": "범용 생의학 AI 에이전트"
+  },
+  {
+   "name": "Paper2Poster/Paper2Poster",
+   "stars": 4020,
+   "type": "도구",
+   "category": "학술 연구·발표 자료",
+   "desc": "논문에서 학술 포스터를 생성하는 오픈소스 멀티 에이전트 시스템(NeurIPS 2025)"
+  },
+  {
+   "name": "jmiao24/Paper2Agent",
+   "stars": 3900,
+   "type": "도구",
+   "category": "학술 연구",
+   "desc": "연구 논문을 대화형 AI 에이전트로 바꿔 주는 멀티 에이전트 시스템"
+  },
+  {
+   "name": "wdcpclover/ai4paper",
+   "stars": 3868,
+   "type": "도구",
+   "category": "학술 연구·문헌 검토",
+   "desc": "이중 언어 레이아웃 PDF 번역, 문헌 검색, 라이브러리 Q&A, AI 논문 읽기를 지원하는 도구"
+  },
+  {
+   "name": "HKUDS/Paper2Slides",
+   "stars": 3851,
+   "type": "도구",
+   "category": "학술 연구·PPT 디자인",
+   "desc": "연구 논문을 클릭 한 번으로 발표 슬라이드로 변환하는 도구"
+  },
+  {
+   "name": "SkyworkAI/DeepResearchAgent",
+   "stars": 3564,
+   "type": "도구",
+   "category": "학술 연구·딥 리서치",
+   "desc": "딥 리서치와 범용 작업 해결을 위한 계층형 멀티 에이전트 시스템"
+  },
+  {
+   "name": "PleasePrompto/notebooklm-mcp",
+   "stars": 3443,
+   "type": "MCP",
+   "category": "학술 연구·딥 리서치",
+   "desc": "에이전트가 NotebookLM에 질의해 출처 기반 답변을 받게 해 주는 MCP 서버"
+  },
+  {
+   "name": "yilewang/llm-for-zotero",
+   "stars": 3441,
+   "type": "플러그인",
+   "category": "학술 연구·문헌 검토",
+   "desc": "Zotero 서재 안에서 동작하는 오픈소스 연구 에이전트 시스템"
+  },
+  {
+   "name": "ResearAI/DeepScientist",
+   "stars": 3398,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "연구의 최전선을 넓히는 것을 목표로 하는 자율 AI 과학자 시스템"
+  },
+  {
+   "name": "google-deepmind/science-skills",
+   "stars": 3353,
+   "type": "스킬",
+   "category": "학술 연구·생명과학",
+   "desc": "AlphaGenome, AFDB, UniProt 등 30개 이상 도구를 연결한 에이전트용 과학 스킬"
+  },
+  {
+   "name": "blazickjp/arxiv-mcp-server",
+   "stars": 3238,
+   "type": "MCP",
+   "category": "학술 연구·문헌 검토",
+   "desc": "LaTeX 섹션 읽기, BibTeX 내보내기, 주제 알림을 지원하는 로컬 arXiv MCP 서버"
+  },
+  {
+   "name": "EvoMap/AutoResearch",
+   "stars": 3097,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "아이디어부터 논문에 쓸 근거까지 만들어 내는 AI/ML 연구 에이전트"
+  },
+  {
+   "name": "OpenNSWM-Lab/FAROS",
+   "stars": 3038,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "아이디어 생성부터 논문 리뷰까지 AI 연구 워크플로를 청사진 기반으로 오케스트레이션하는 런타임"
+  },
+  {
+   "name": "openags/paper-search-mcp",
+   "stars": 2940,
+   "type": "MCP·스킬",
+   "category": "학술 연구·문헌 검토",
+   "desc": "arXiv·PubMed·bioRxiv 등에서 논문을 검색·다운로드하는 MCP 서버, CLI, 스킬"
+  },
+  {
+   "name": "sahibzada-allahyar/Formal-Verification-RSI",
+   "stars": 2860,
+   "type": "도구",
+   "category": "학술 연구·수학",
+   "desc": "Lean 4와 Dafny로 AI가 만든 가짜 증명을 잡아내는 검증 도구"
+  },
+  {
+   "name": "OpenDCAI/Paper2Any",
+   "stars": 2822,
+   "type": "도구",
+   "category": "학술 연구·논문 그림",
+   "desc": "논문·텍스트·주제를 편집 가능한 연구 그림, 다이어그램, 슬라이드로 바꿔 주는 도구"
+  },
+  {
+   "name": "LigphiDonk/academic-figure-generator",
+   "stars": 2766,
+   "type": "도구·스킬",
+   "category": "학술 연구·논문 그림",
+   "desc": "논문을 올리면 AI가 프롬프트를 만들어 학술 논문용 그림을 생성하는 플랫폼(스킬 포함)"
+  },
+  {
+   "name": "yb2460/harness-anything",
+   "stars": 2696,
+   "type": "도구·스킬",
+   "category": "학술 연구",
+   "desc": "WPS·MS Office·Zotero·Photoshop을 다루는 AI 에이전트 제어 허브로 27개 학술 스킬 포함"
+  },
+  {
+   "name": "papersgpt/papersgpt-for-zotero",
+   "stars": 2686,
+   "type": "플러그인·MCP",
+   "category": "학술 연구·문헌 검토",
+   "desc": "PDF와 대화하고 서재 전체를 검색하는 Zotero용 AI 연구 도구(MCP 서버 내장)"
+  },
+  {
+   "name": "HughYau/AcademicForge",
+   "stars": 2615,
+   "type": "스킬·모음집",
+   "category": "학술 연구·논문 작성",
+   "desc": "학술 글쓰기와 연구를 위한 스킬을 엄선해 모은 컬렉션"
+  },
+  {
+   "name": "webfuse-com/awesome-autoresearch",
+   "stars": 2578,
+   "type": "모음집",
+   "category": "학술 연구·AI 과학자",
+   "desc": "autoresearch에서 영감을 받은 자율 연구 에이전트와 개선 루프 모음"
+  },
+  {
+   "name": "llmsresearch/paperbanana",
+   "stars": 2427,
+   "type": "도구",
+   "category": "학술 연구·논문 그림",
+   "desc": "Google Research PaperBanana를 확장한 학술 그림·슬라이드 생성 오픈소스 도구"
+  },
+  {
+   "name": "bohyy/academic-ai-prompt",
+   "stars": 2234,
+   "type": "모음집",
+   "category": "학술 연구·논문 작성",
+   "desc": "대학원생·연구자를 위한 주제 선정부터 출판까지의 AI 프롬프트 라이브러리"
+  },
+  {
+   "name": "AnotiaWang/deep-research-web-ui",
+   "stars": 2222,
+   "type": "도구",
+   "category": "학술 연구·딥 리서치",
+   "desc": "질문을 출처가 달린 보고서로 만들어 주는 AI 딥 리서치 에이전트"
+  },
+  {
+   "name": "ai4s-research/awesome-ai-for-science",
+   "stars": 2058,
+   "type": "모음집",
+   "category": "학술 연구",
+   "desc": "과학 발견을 가속하는 AI 도구·논문·데이터셋 큐레이션 목록"
+  },
+  {
+   "name": "aipoch/medical-research-skills",
+   "stars": 1996,
+   "type": "스킬",
+   "category": "학술 연구·의학 연구",
+   "desc": "연구 프로토콜, 데이터 분석, 학술 글쓰기를 다루는 의학 연구용 에이전트 스킬 수백 개"
+  },
+  {
+   "name": "XiaoMaColtAI/math-modeling-skill",
+   "stars": 1889,
+   "type": "스킬",
+   "category": "학술 연구·논문 작성",
+   "desc": "CUMCM·MCM/ICM 수학 모델링 대회용 모델 분석·프로그래밍·DOCX 논문 생성 3단계 워크플로 스킬"
+  },
+  {
+   "name": "steven-jianhao-li/zotero-AI-Butler",
+   "stars": 1845,
+   "type": "플러그인",
+   "category": "학술 연구·문헌 관리",
+   "desc": "LLM이 Zotero 속 논문을 자동으로 읽고 요약 노트를 만들어 주는 플러그인"
+  },
+  {
+   "name": "delibae/claude-prism",
+   "stars": 1828,
+   "type": "도구",
+   "category": "학술 연구·LaTeX",
+   "desc": "Claude 기반의 오프라인 우선 과학 글쓰기 작업 공간으로 LaTeX·Python과 100여 개 스킬 포함"
+  },
+  {
+   "name": "zi-yue-1129/DATAGEN",
+   "stars": 1810,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "가설 생성, 데이터 분석, 보고서 작성을 자동화하는 멀티 에이전트 연구 보조 도구"
+  },
+  {
+   "name": "mims-harvard/ToolUniverse",
+   "stars": 1763,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "AI 과학자를 누구나 만들 수 있도록 과학 도구를 모아 제공하는 생태계"
+  },
+  {
+   "name": "HKUDS/Auto-Deep-Research",
+   "stars": 1755,
+   "type": "도구",
+   "category": "학술 연구·딥 리서치",
+   "desc": "완전 자동화된 개인 AI 리서치 어시스턴트"
+  },
+  {
+   "name": "lifan0127/ai-research-assistant",
+   "stars": 1730,
+   "type": "플러그인",
+   "category": "학술 연구·문헌 관리",
+   "desc": "GPT 기반 Zotero용 AI 연구 보조 도구 Aria"
+  },
+  {
+   "name": "pedrohcgs/claude-code-my-workflow",
+   "stars": 1672,
+   "type": "가이드",
+   "category": "학술 연구·LaTeX",
+   "desc": "LaTeX/Beamer와 R을 쓰는 연구자를 위한 바로 포크해 쓰는 Claude Code 템플릿(멀티 에이전트 리뷰 포함)"
+  },
+  {
+   "name": "bytedance/pasa",
+   "stars": 1671,
+   "type": "도구",
+   "category": "학술 연구·문헌 검토",
+   "desc": "도구를 호출해 논문을 읽고 참고문헌을 고르는 LLM 기반 논문 검색 에이전트"
+  },
+  {
+   "name": "business-science/awesome-generative-ai-data-scientist",
+   "stars": 1602,
+   "type": "모음집",
+   "category": "학술 연구·데이터 분석",
+   "desc": "생성형 AI 데이터 과학자를 만들고 배포하는 100개 이상 자료 큐레이션"
+  },
+  {
+   "name": "MLSysOps/MLE-agent",
+   "stars": 1576,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "arXiv 연동과 여러 LLM을 지원하는 AI 엔지니어링·연구 에이전트"
+  },
+  {
+   "name": "PaperDebugger/paperdebugger",
+   "stars": 1549,
+   "type": "플러그인",
+   "category": "학술 연구·논문 작성",
+   "desc": "편집기 안에서 학술 글쓰기·리뷰·편집을 돕는 플러그인형 멀티 에이전트 시스템"
+  },
+  {
+   "name": "PrathamLearnsToCode/paper2code",
+   "stars": 1540,
+   "type": "스킬",
+   "category": "학술 연구·논문 검색",
+   "desc": "arXiv 논문을 동작하는 구현 코드로 바꿔 주는 에이전트 스킬"
+  },
+  {
+   "name": "RUC-NLPIR/WebThinker",
+   "stars": 1471,
+   "type": "도구",
+   "category": "학술 연구·딥 리서치",
+   "desc": "대형 추론 모델에 딥 리서치 능력을 부여하는 WebThinker(NeurIPS 2025)"
+  },
+  {
+   "name": "InternScience/InternAgent",
+   "stars": 1459,
+   "type": "도구",
+   "category": "학술 연구",
+   "desc": "장기 과학 발견을 위한 통합 에이전트 프레임워크 InternAgent-1.5"
+  },
+  {
+   "name": "lishix520/academic-paper-skills",
+   "stars": 1442,
+   "type": "스킬",
+   "category": "학술 연구·논문 작성",
+   "desc": "Claude Code로 학술 논문을 체계적으로 기획·작성하는 품질 점검 포함 프레임워크"
+  },
+  {
+   "name": "zsyggg/paper-craft-skills",
+   "stars": 1410,
+   "type": "스킬",
+   "category": "학술 연구·논문 읽기",
+   "desc": "학술 논문을 심층 분석하고 만화·요약으로 정리하는 Claude Code 스킬"
+  },
+  {
+   "name": "K-Dense-AI/k-dense-byok",
+   "stars": 1409,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "데스크톱에서 실행되는 AI 공동 과학자"
+  },
+  {
+   "name": "Gabberflast/academic-pptx-skill",
+   "stars": 1387,
+   "type": "스킬",
+   "category": "학술 연구·PPT 디자인",
+   "desc": "액션 타이틀과 인용 규칙을 갖춘 학술 발표 슬라이드용 Claude 스킬"
+  },
+  {
+   "name": "ChaokunHong/MetaScreener",
+   "stars": 1338,
+   "type": "도구",
+   "category": "학술 연구·문헌 검토",
+   "desc": "체계적 문헌고찰에서 초록과 PDF 선별을 효율화하는 AI 도구"
+  },
+  {
+   "name": "OpenRaiser/NanoResearch",
+   "stars": 1338,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "자율 AI 연구 보조 도구"
+  },
+  {
+   "name": "brycewang-stanford/Awesome-Journal-Skills",
+   "stars": 1327,
+   "type": "스킬·모음집",
+   "category": "학술 연구·논문 작성",
+   "desc": "AER·QJE·Nature·Cell 등 200여 개 학술지별 Claude Code/Codex 스킬 팩"
+  },
+  {
+   "name": "huangkiki/dailypaper-skills",
+   "stars": 1320,
+   "type": "스킬",
+   "category": "학술 연구·논문 읽기",
+   "desc": "매일 논문을 찾아 비판적으로 리뷰하고 연결된 연구 노트를 만드는 에이전트 스킬"
+  },
+  {
+   "name": "datalayer/jupyter-mcp-server",
+   "stars": 1314,
+   "type": "MCP",
+   "category": "학술 연구·데이터 분석",
+   "desc": "Jupyter용 MCP 서버"
+  },
+  {
+   "name": "917Dhj/DeepPaperNote",
+   "stars": 1264,
+   "type": "스킬",
+   "category": "학술 연구·논문 읽기",
+   "desc": "논문 한 편을 정독해 Obsidian 스타일 연구 노트로 만드는 에이전트 스킬"
+  },
+  {
+   "name": "cookjohn/zotero-mcp",
+   "stars": 1251,
+   "type": "MCP·플러그인",
+   "category": "학술 연구·문헌 검토",
+   "desc": "AI 어시스턴트가 MCP로 Zotero 서재를 검색·관리·분석하게 해 주는 Zotero 플러그인"
+  },
+  {
+   "name": "GPTomics/bioSkills",
+   "stars": 1227,
+   "type": "스킬",
+   "category": "학술 연구·생명과학",
+   "desc": "Claude Code 같은 에이전트로 생물정보학 작업을 하기 위한 SKILL.md 모음"
+  },
+  {
+   "name": "matlab/matlab-agentic-toolkit",
+   "stars": 1221,
+   "type": "도구",
+   "category": "학술 연구·수학",
+   "desc": "MATLAB 기능을 AI 에이전트에 제공해 엔지니어링·과학 작업을 하게 해 주는 툴킷"
+  },
+  {
+   "name": "Spark-To-Paper-Skills/paperjury",
+   "stars": 1213,
+   "type": "스킬",
+   "category": "학술 연구·동료 심사",
+   "desc": "투고 전 논문을 AI 리뷰로 스트레스 테스트하는 리뷰·판정·수정·검증 스킬"
+  },
+  {
+   "name": "OpenLAIR/dr-claw",
+   "stars": 1171,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "AI 박사들을 조수로 두는 연구용 AI IDE"
+  },
+  {
+   "name": "ClawBio/ClawBio",
+   "stars": 1170,
+   "type": "스킬",
+   "category": "학술 연구·생명과학",
+   "desc": "로컬 우선, 재현 가능한 생물정보학 전용 AI 에이전트 스킬 라이브러리"
+  },
+  {
+   "name": "Xiangyue-Zhang/auto-deep-researcher-24x7",
+   "stars": 1136,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "잠자는 동안 24시간 딥러닝 실험을 돌리는 자율 AI 에이전트"
+  },
+  {
+   "name": "RUC-NLPIR/Arbor",
+   "stars": 1119,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "실험·조사·반복 최적화를 자율적으로 수행하는 범용 자율 연구 에이전트"
+  },
+  {
+   "name": "pengjunchi0/codex-visio-paper-figure-skill",
+   "stars": 1119,
+   "type": "스킬",
+   "category": "학술 연구·논문 그림",
+   "desc": "AI가 만든 연구 그림을 Visio 등 편집 가능한 형식으로 바꿔 세부 수정을 돕는 스킬"
+  },
+  {
+   "name": "CRui5in/paper-ppt-agent",
+   "stars": 1065,
+   "type": "도구",
+   "category": "학술 연구·PPT 디자인",
+   "desc": "논문 PDF나 LaTeX 소스로 편집 가능한 PPT를 만드는 에이전트"
+  },
+  {
+   "name": "wu-yc/LabClaw",
+   "stars": 1058,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "LabOS(스탠퍼드·프린스턴 AI 공동 과학자)의 운영 레이어"
+  },
+  {
+   "name": "xuzhougeng/wisp-science",
+   "stars": 1058,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "Python/R과 생물정보학 MCP 도구를 갖춘 로컬 우선 데스크톱 AI 연구 워크벤치"
+  },
+  {
+   "name": "Edwardxlai/easyread",
+   "stars": 1050,
+   "type": "도구",
+   "category": "학술 연구·논문 읽기",
+   "desc": "영어 논문을 읽기 쉬운 중국어로 번역해 PDF 대조 보기와 AI 질의응답을 제공하는 도구"
+  },
+  {
+   "name": "cookjohn/cnki-skills",
+   "stars": 1026,
+   "type": "스킬",
+   "category": "학술 연구·논문 검색",
+   "desc": "중국 CNKI(중국지망)에서 논문 검색, 저널 탐색, PDF 다운로드를 하는 Claude Code 스킬"
+  },
+  {
+   "name": "beita6969/ScienceClaw",
+   "stars": 1020,
+   "type": "도구",
+   "category": "학술 연구·AI 과학자",
+   "desc": "검증된 실행에서 스킬과 연산자가 자라나는 자기 진화형 AI-for-Science 에이전트"
   }
- ]
+ ],
+ "minStarsResearch": 1000
 }
