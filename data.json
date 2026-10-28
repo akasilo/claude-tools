@@ -20,7 +20,7 @@
    "name": "anthropics/skills",
    "stars": 179989,
    "type": "스킬",
-   "category": "공식",
+   "category": "공식·PPT 디자인",
    "desc": "Anthropic 공식 Agent Skills 저장소(docx·pptx·xlsx·pdf·프론트엔드 디자인 등)"
   },
   {
@@ -430,6 +430,13 @@
    "desc": "드라이브·Gmail·캘린더·시트·문서용 공식 CLI"
   },
   {
+   "name": "zarazhangrui/frontend-slides",
+   "stars": 31447,
+   "type": "스킬",
+   "category": "PPT 디자인",
+   "desc": "코딩 에이전트의 프론트엔드 실력으로 웹에서 보기 좋은 슬라이드를 만드는 스킬"
+  },
+  {
    "name": "nanocoai/nanoclaw",
    "stars": 30889,
    "type": "도구",
@@ -449,6 +456,13 @@
    "type": "MCP",
    "category": "코드 리뷰",
    "desc": "리뷰용 컨텍스트를 줄이는 로컬 코드 그래프"
+  },
+  {
+   "name": "op7418/guizang-ppt-skill",
+   "stars": 28807,
+   "type": "스킬",
+   "category": "PPT 디자인",
+   "desc": "잡지 편집·스위스 스타일 레이아웃의 세련된 HTML 슬라이드 덱 생성 스킬"
   },
   {
    "name": "alirezarezvani/claude-skills",
@@ -496,7 +510,7 @@
    "name": "JimLiu/baoyu-skills",
    "stars": 26999,
    "type": "스킬",
-   "category": "콘텐츠 제작",
+   "category": "콘텐츠 제작·PPT 디자인",
    "desc": "글·이미지·슬라이드 등 콘텐츠 제작 스킬 모음"
   },
   {
@@ -696,11 +710,25 @@
    "desc": "IDA Pro와 LLM을 연결하는 MCP"
   },
   {
+   "name": "nicobailon/visual-explainer",
+   "stars": 10658,
+   "type": "스킬",
+   "category": "PPT 디자인·다이어그램",
+   "desc": "다이어그램·코드 변경 리뷰·요약을 HTML 페이지나 슬라이드 덱으로 만들어 주는 스킬"
+  },
+  {
    "name": "mcp-use/mcp-use",
    "stars": 10630,
    "type": "SDK",
    "category": "MCP 개발",
    "desc": "MCP 앱·서버 풀스택 프레임워크"
+  },
+  {
+   "name": "chuspeeism/dashi-ppt-skill",
+   "stars": 10099,
+   "type": "스킬",
+   "category": "PPT 디자인",
+   "desc": "여러 테마의 브라우저 편집형 슬라이드를 만들고 HTML·PDF·PPTX로 내보내는 스킬"
   },
   {
    "name": "SnailSploit/Claude-Red",
@@ -724,6 +752,13 @@
    "desc": "로컬 AI가 HTML을 작성하는 에이전틱 HTML 편집기"
   },
   {
+   "name": "lewislulu/html-ppt-skill",
+   "stars": 8865,
+   "type": "스킬",
+   "category": "PPT 디자인",
+   "desc": "테마 24종·레이아웃 31종·애니메이션 20여 종을 갖춘 HTML PPT 제작 스킬"
+  },
+  {
    "name": "google-labs-code/stitch-skills",
    "stars": 8609,
    "type": "스킬",
@@ -743,6 +778,13 @@
    "type": "MCP",
    "category": "웹 스크래핑",
    "desc": "Firecrawl 공식 MCP(검색·스크래핑)"
+  },
+  {
+   "name": "ningzimu/codex-ppt-skill",
+   "stars": 7383,
+   "type": "스킬",
+   "category": "PPT 디자인",
+   "desc": "GPT-Image-2로 이미지 기반 PPT를 만드는 스킬(OpenAI 이미지 API 필요)"
   },
   {
    "name": "AgentDeskAI/browser-tools-mcp",

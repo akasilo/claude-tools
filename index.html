@@ -17,8 +17,8 @@
   --border:#dce2e6; --rule:#e9edf0; --control:#c3c9ce;
   --text:#131416; --muted:#4f5558; --accent:#0e7490; --accent-hover:#0b5f77;
   --positive:#15803d; --chart-1:#0e7490; --chart-track:#dde6ea;
-  --c-all:#131416; --c-design:#be185d; --c-mcp:#1d4ed8; --c-skill:#0e7490; --c-plugin:#c2410c; --c-tool:#166534; --c-list:#475569; --c-dev:#a16207;
-  --b-all:#dde5ea; --b-design:#fce7f1; --b-mcp:#e0e9fd; --b-skill:#dff3f8; --b-plugin:#fdebe1; --b-tool:#e2f5e8; --b-list:#e6ebf0; --b-dev:#fbf1dc;
+  --c-all:#131416; --c-design:#be185d; --c-ppt:#b45309; --c-mcp:#1d4ed8; --c-skill:#0e7490; --c-plugin:#c2410c; --c-tool:#166534; --c-list:#475569; --c-dev:#a16207;
+  --b-all:#dde5ea; --b-design:#fce7f1; --b-ppt:#fdf0dc; --b-mcp:#e0e9fd; --b-skill:#dff3f8; --b-plugin:#fdebe1; --b-tool:#e2f5e8; --b-list:#e6ebf0; --b-dev:#fbf1dc;
   --pill-neutral-bg:#ebedee; --pill-neutral-ink:#353736;
   --pill-design-bg:#e3f1f4; --pill-design-ink:#124a58;
   --radius-card:8px; --radius-control:6px; --radius-sheet:16px; --sheet-inset:8px;
@@ -110,6 +110,7 @@ td.kind{white-space:nowrap}
 .pill.t-skill{background:var(--b-skill);color:var(--c-skill)}.pill.t-mcp{background:var(--b-mcp);color:var(--c-mcp)}.pill.t-plugin{background:var(--b-plugin);color:var(--c-plugin)}.pill.t-tool{background:var(--b-tool);color:var(--c-tool)}.pill.t-list{background:var(--b-list);color:var(--c-list)}.pill.t-dev{background:var(--b-dev);color:var(--c-dev)}
 .pill{font-weight:500}
 .pill.design{background:var(--b-design);color:var(--c-design)}
+.pill.ppt{background:var(--b-ppt);color:#92400e}
 .cat{color:var(--muted);font-size:13px}
 td.stars{width:200px;text-align:right;white-space:nowrap}
 .sv{display:inline-flex;align-items:center;gap:10px;justify-content:flex-end}
@@ -181,6 +182,7 @@ td.act{width:92px;text-align:right;padding-right:0}
   <symbol id="i-menu" viewBox="0 0 16 16"><path d="M2.5 4.5h11M2.5 8h11M2.5 11.5h11"/></symbol>
   <symbol id="i-gh" viewBox="0 0 16 16"><path d="M6 13.5c-3 .9-3-1.5-4-1.8m8 3.3v-2.3c0-.7.1-1-.3-1.4 2-.2 3.8-1 3.8-4.2a3.3 3.3 0 0 0-.9-2.3 3 3 0 0 0-.1-2.3s-.7-.2-2.3.9a8 8 0 0 0-4.2 0C4.4 1.3 3.7 1.5 3.7 1.5a3 3 0 0 0-.1 2.3 3.3 3.3 0 0 0-.9 2.3c0 3.2 1.8 4 3.8 4.2-.4.4-.4.8-.3 1.4V15"/></symbol>
   <symbol id="c-all" viewBox="0 0 16 16"><rect x="2.5" y="2.5" width="4.5" height="4.5" rx="1"/><rect x="9" y="2.5" width="4.5" height="4.5" rx="1"/><rect x="2.5" y="9" width="4.5" height="4.5" rx="1"/><rect x="9" y="9" width="4.5" height="4.5" rx="1"/></symbol>
+  <symbol id="c-ppt" viewBox="0 0 16 16"><rect x="1.5" y="2.5" width="13" height="8.5" rx="1"/><path d="M8 11v2.5M5.5 14h5M4.5 8.5l2-2.5 2 1.5 3-3.5"/></symbol>
   <symbol id="c-design" viewBox="0 0 16 16"><path d="M8 2a6 6 0 1 0 0 12c.7 0 1.1-.6.9-1.2-.3-.8.2-1.5 1-1.5H11.5A2.5 2.5 0 0 0 14 8.8C14 5 11.3 2 8 2z"/><circle cx="5" cy="7.5" r=".6"/><circle cx="7.5" cy="5" r=".6"/><circle cx="10.5" cy="5.5" r=".6"/></symbol>
   <symbol id="c-mcp" viewBox="0 0 16 16"><path d="M6 1.5v4M10 1.5v4M4 5.5h8v2.5a4 4 0 0 1-8 0zM8 12v2.5"/></symbol>
   <symbol id="c-skill" viewBox="0 0 16 16"><path d="M8 1.5 9.6 6.4 14.5 8 9.6 9.6 8 14.5 6.4 9.6 1.5 8 6.4 6.4z"/></symbol>
@@ -252,6 +254,7 @@ td.act{width:92px;text-align:right;padding-right:0}
 const VIEWS=[
   {id:"all",label:"전체",title:"전체 저장소",icon:"c-all",test:()=>true},
   {id:"design",label:"웹디자인",title:"웹디자인",icon:"c-design",test:i=>i.category.includes("웹디자인")},
+  {id:"ppt",label:"PPT 디자인",title:"PPT 디자인",icon:"c-ppt",test:i=>i.category.includes("PPT")},
   {id:"mcp",label:"MCP 서버",title:"MCP 서버",icon:"c-mcp",test:i=>i.type.includes("MCP")},
   {id:"skill",label:"스킬",title:"스킬",icon:"c-skill",test:i=>i.type.includes("스킬")},
   {id:"plugin",label:"플러그인",title:"플러그인",icon:"c-plugin",test:i=>i.type.includes("플러그인")},
@@ -292,7 +295,7 @@ function render(){
   $("#rows").innerHTML=list.map(i=>{
     const url="https://github.com/"+i.name,[own,repo]=i.name.split("/");
     const w=Math.max(4,Math.round(Math.sqrt(i.stars/maxStars)*100));
-    const cats=i.category.split("·").map(c=>c==="웹디자인"?`<span class="pill design">웹디자인</span>`:`<span class="cat">${esc(c)}</span>`).join(" ");
+    const cats=i.category.split("·").map(c=>c==="웹디자인"?`<span class="pill design">웹디자인</span>`:c==="PPT 디자인"?`<span class="pill ppt">PPT 디자인</span>`:`<span class="cat">${esc(c)}</span>`).join(" ");
     return `<tr${i.rank<=3&&sort==="stars"?' class="lead"':''}>
       <td class="rank">${i.rank}</td>
       <td class="repo"><a class="rid" href="${url}" target="_blank" rel="noopener"><span class="own">${esc(own)}/</span>${esc(repo)}</a><p class="rdesc">${esc(i.desc)}</p></td>
