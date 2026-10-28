@@ -510,7 +510,7 @@
    "name": "JimLiu/baoyu-skills",
    "stars": 26999,
    "type": "스킬",
-   "category": "콘텐츠 제작·PPT 디자인",
+   "category": "콘텐츠 제작·PPT 디자인·카드뉴스",
    "desc": "글·이미지·슬라이드 등 콘텐츠 제작 스킬 모음"
   },
   {
@@ -771,6 +771,13 @@
    "type": "SDK",
    "category": "MCP 개발",
    "desc": "MCP 기반 에이전트를 만드는 프레임워크"
+  },
+  {
+   "name": "op7418/guizang-social-card-skill",
+   "stars": 7809,
+   "type": "스킬",
+   "category": "카드뉴스",
+   "desc": "샤오훙수식 3:4 카드뉴스 캐러셀과 위챗 표지를 HTML→PNG로 만드는 스킬(레이아웃 28종·테마 10종)"
   },
   {
    "name": "firecrawl/firecrawl-mcp-server",
