@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "minStars": 5000,
  "items": [
   {
@@ -24,7 +24,7 @@
   },
   {
    "name": "affaan-m/ECC",
-   "stars": 299736,
+   "stars": 300213,
    "type": "스킬·플러그인",
    "desc": "Claude Code 등 에이전트의 스킬·메모리·보안 성능 최적화 시스템",
    "area": "Claude Code 확장",
@@ -44,7 +44,7 @@
   },
   {
    "name": "firecrawl/firecrawl",
-   "stars": 199839,
+   "stars": 200148,
    "type": "도구·라이브러리",
    "desc": "AI 에이전트를 위해 웹을 검색·스크래핑·상호작용해 데이터를 가져오는 웹 데이터 API",
    "area": "브라우저·웹 데이터",
@@ -66,7 +66,7 @@
   },
   {
    "name": "anthropics/skills",
-   "stars": 189713,
+   "stars": 190891,
    "type": "스킬",
    "desc": "Anthropic 공식 Agent Skills 저장소(docx·pptx·xlsx·pdf·프론트엔드 디자인 등)",
    "area": "모음집·가이드",
@@ -91,7 +91,7 @@
   },
   {
    "name": "DietrichGebert/ponytail",
-   "stars": 186954,
+   "stars": 187653,
    "type": "스킬",
    "desc": "에이전트가 군더더기 없이 간결한 코드를 쓰도록 하는 스킬",
    "area": "개발 워크플로",
@@ -143,7 +143,7 @@
   },
   {
    "name": "farion1231/cc-switch",
-   "stars": 152782,
+   "stars": 153054,
    "type": "도구",
    "desc": "Claude Code·Codex 등 설정과 공급자를 전환하는 데스크톱 앱",
    "area": "Claude Code 확장",
@@ -153,7 +153,7 @@
   },
   {
    "name": "langchain-ai/langchain",
-   "stars": 149223,
+   "stars": 149283,
    "type": "라이브러리",
    "desc": "에이전트 엔지니어링 플랫폼이자 LLM 앱 프레임워크",
    "area": "에이전트 개발",
@@ -163,7 +163,7 @@
   },
   {
    "name": "nextlevelbuilder/ui-ux-pro-max-skill",
-   "stars": 146944,
+   "stars": 147352,
    "type": "스킬",
    "desc": "여러 플랫폼용 전문 UI/UX 디자인 지식을 제공하는 스킬",
    "area": "디자인",
@@ -173,7 +173,7 @@
   },
   {
    "name": "Graphify-Labs/graphify",
-   "stars": 144529,
+   "stars": 145012,
    "type": "스킬·MCP",
    "desc": "코드베이스·문서·스키마를 질의 가능한 지식 그래프로 변환",
    "area": "코드 이해·컨텍스트",
@@ -227,7 +227,7 @@
   },
   {
    "name": "browser-use/browser-use",
-   "stars": 120356,
+   "stars": 120446,
    "type": "MCP·라이브러리",
    "desc": "AI 에이전트용 브라우저 자동화 라이브러리(MCP 지원)",
    "area": "브라우저·웹 데이터",
@@ -237,7 +237,7 @@
   },
   {
    "name": "stablyai/orca",
-   "stars": 119363,
+   "stars": 120366,
    "type": "도구",
    "desc": "여러 코딩 에이전트를 병렬로 돌리는 개발 환경",
    "area": "Claude Code 확장",
@@ -247,7 +247,7 @@
   },
   {
    "name": "JuliusBrussee/caveman",
-   "stars": 118394,
+   "stars": 118640,
    "type": "스킬",
    "desc": "말투를 줄여 토큰을 약 65% 절약하는 스킬",
    "area": "코드 이해·컨텍스트",
@@ -267,7 +267,7 @@
   },
   {
    "name": "thedotmack/claude-mem",
-   "stars": 114937,
+   "stars": 115384,
    "type": "플러그인",
    "desc": "세션 간 맥락을 압축 저장해 다시 주입하는 메모리 플러그인",
    "area": "메모리·지식",
@@ -277,7 +277,7 @@
   },
   {
    "name": "addyosmani/agent-skills",
-   "stars": 114158,
+   "stars": 114557,
    "type": "스킬",
    "desc": "프로덕션 수준 엔지니어링 스킬 모음(Addy Osmani)",
    "area": "개발 워크플로",
@@ -287,7 +287,7 @@
   },
   {
    "name": "paperclipai/paperclip",
-   "stars": 112348,
+   "stars": 112627,
    "type": "도구",
    "desc": "직장에서 여러 AI 에이전트를 관리하는 오픈소스 앱",
    "area": "Claude Code 확장",
@@ -297,7 +297,7 @@
   },
   {
    "name": "Leonxlnx/taste-skill",
-   "stars": 112064,
+   "stars": 112517,
    "type": "스킬",
    "desc": "뻔한 AI 디자인 대신 감각 있는 UI를 만들게 하는 스킬",
    "area": "디자인",
@@ -307,7 +307,7 @@
   },
   {
    "name": "Panniantong/Agent-Reach",
-   "stars": 110334,
+   "stars": 110609,
    "type": "도구·스킬",
    "desc": "트위터·레딧·유튜브·GitHub 등 접근을 한 CLI로 제공",
    "area": "브라우저·웹 데이터",
@@ -316,18 +316,8 @@
    "tags": []
   },
   {
-   "name": "nexu-io/open-design",
-   "stars": 106669,
-   "type": "스킬·플러그인",
-   "desc": "오픈소스 Claude Design 대안 디자인 플러그인",
-   "area": "디자인",
-   "sub": "UI·웹 디자인",
-   "also": [],
-   "tags": []
-  },
-  {
    "name": "pbakaus/impeccable",
-   "stars": 106246,
+   "stars": 106860,
    "type": "스킬",
    "desc": "코딩 에이전트에게 디자인 어휘를 주어 다듬기·대담하게 만들기·리뷰를 지시할 수 있게 합니다.",
    "area": "디자인",
@@ -336,8 +326,18 @@
    "tags": []
   },
   {
+   "name": "nexu-io/open-design",
+   "stars": 106834,
+   "type": "스킬·플러그인",
+   "desc": "오픈소스 Claude Design 대안 디자인 플러그인",
+   "area": "디자인",
+   "sub": "UI·웹 디자인",
+   "also": [],
+   "tags": []
+  },
+  {
    "name": "D4Vinci/Scrapling",
-   "stars": 99912,
+   "stars": 100523,
    "type": "MCP·라이브러리",
    "desc": "단일 요청부터 대규모 크롤링까지 지원하는 스크래핑 프레임워크(MCP 포함)",
    "area": "브라우저·웹 데이터",
@@ -357,7 +357,7 @@
   },
   {
    "name": "tt-a1i/archify",
-   "stars": 94758,
+   "stars": 95047,
    "type": "스킬",
    "desc": "아이디어·계획·코드베이스를 인터랙티브 다이어그램으로 시각화",
    "area": "디자인",
@@ -369,7 +369,7 @@
   },
   {
    "name": "infiniflow/ragflow",
-   "stars": 93785,
+   "stars": 93893,
    "type": "도구",
    "desc": "RAG와 에이전트 기능을 결합한 오픈소스 RAG 엔진",
    "area": "메모리·지식",
@@ -389,7 +389,7 @@
   },
   {
    "name": "Egonex-AI/Understand-Anything",
-   "stars": 91575,
+   "stars": 91751,
    "type": "스킬",
    "desc": "코드를 탐색 가능한 인터랙티브 지식 그래프로 변환",
    "area": "코드 이해·컨텍스트",
@@ -452,22 +452,22 @@
    "tags": []
   },
   {
-   "name": "ruvnet/ruflo",
-   "stars": 81279,
-   "type": "도구·MCP",
-   "desc": "멀티 에이전트 스웜 오케스트레이션(Claude Code 지원)",
-   "area": "Claude Code 확장",
-   "sub": "멀티 에이전트",
-   "also": [],
-   "tags": []
-  },
-  {
    "name": "career-ops-hq/career-ops",
-   "stars": 81215,
+   "stars": 81483,
    "type": "스킬",
    "desc": "채용공고 스캔·이력서 맞춤 점수화 AI 구직 에이전트",
    "area": "특화 분야",
    "sub": "취업·커리어",
+   "also": [],
+   "tags": []
+  },
+  {
+   "name": "ruvnet/ruflo",
+   "stars": 81355,
+   "type": "도구·MCP",
+   "desc": "멀티 에이전트 스웜 오케스트레이션(Claude Code 지원)",
+   "area": "Claude Code 확장",
+   "sub": "멀티 에이전트",
    "also": [],
    "tags": []
   },
@@ -529,7 +529,7 @@
   },
   {
    "name": "ComposioHQ/awesome-claude-skills",
-   "stars": 79076,
+   "stars": 79142,
    "type": "모음집",
    "desc": "Claude 스킬·리소스 큐레이션 목록",
    "area": "모음집·가이드",
@@ -603,7 +603,7 @@
   },
   {
    "name": "code-yeongyu/oh-my-openagent",
-   "stars": 70790,
+   "stars": 70803,
    "type": "플러그인",
    "desc": "코딩 에이전트 오케스트레이션 레이어",
    "area": "Claude Code 확장",
@@ -654,6 +654,16 @@
    "tags": []
   },
   {
+   "name": "blader/humanizer",
+   "stars": 67089,
+   "type": "스킬",
+   "desc": "AI가 쓴 티가 나는 문장 패턴을 제거하는 스킬",
+   "area": "콘텐츠·마케팅",
+   "sub": "글쓰기",
+   "also": [],
+   "tags": []
+  },
+  {
    "name": "mvanhorn/last30days-skill",
    "stars": 67025,
    "type": "스킬",
@@ -666,18 +676,8 @@
    "tags": []
   },
   {
-   "name": "blader/humanizer",
-   "stars": 66549,
-   "type": "스킬",
-   "desc": "AI가 쓴 티가 나는 문장 패턴을 제거하는 스킬",
-   "area": "콘텐츠·마케팅",
-   "sub": "글쓰기",
-   "also": [],
-   "tags": []
-  },
-  {
    "name": "cathrynlavery/diagram-design",
-   "stars": 65893,
+   "stars": 66083,
    "type": "스킬",
    "desc": "편집 디자인 수준의 다이어그램 제작 스킬",
    "area": "디자인",
@@ -687,7 +687,7 @@
   },
   {
    "name": "upstash/context7",
-   "stars": 64380,
+   "stars": 64432,
    "type": "MCP",
    "desc": "최신 라이브러리 문서를 에이전트에 제공하는 MCP",
    "area": "코드 이해·컨텍스트",
@@ -707,7 +707,7 @@
   },
   {
    "name": "sansan0/TrendRadar",
-   "stars": 63525,
+   "stars": 63551,
    "type": "MCP",
    "desc": "여러 플랫폼 여론·트렌드 수집·알림(MCP 지원)",
    "area": "브라우저·웹 데이터",
@@ -739,7 +739,7 @@
   },
   {
    "name": "ayghri/i-have-adhd",
-   "stars": 60550,
+   "stars": 60637,
    "type": "스킬",
    "desc": "답을 앞에 두고 읽기 쉽게 출력하게 하는 스킬",
    "area": "Claude Code 확장",
@@ -769,7 +769,7 @@
   },
   {
    "name": "coreyhaines31/marketingskills",
-   "stars": 59248,
+   "stars": 59412,
    "type": "스킬·모음집",
    "desc": "CRO·카피라이팅·SEO·분석·그로스를 다루는 Claude Code용 마케팅 스킬 모음입니다.",
    "area": "콘텐츠·마케팅",
@@ -789,7 +789,7 @@
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
-   "stars": 57554,
+   "stars": 57630,
    "type": "모음집",
    "desc": "Claude Code 스킬·에이전트·플러그인 큐레이션 목록",
    "area": "모음집·가이드",
@@ -815,7 +815,7 @@
   },
   {
    "name": "K-Dense-AI/scientific-agent-skills",
-   "stars": 56503,
+   "stars": 56603,
    "type": "스킬",
    "desc": "검증된 과학 스킬 177종과 과학 DB 100여 개 연결",
    "area": "논문·연구",
@@ -855,7 +855,7 @@
   },
   {
    "name": "ChromeDevTools/chrome-devtools-mcp",
-   "stars": 54979,
+   "stars": 55027,
    "type": "MCP",
    "desc": "Chrome DevTools를 코딩 에이전트에 연결(공식)",
    "area": "브라우저·웹 데이터",
@@ -981,7 +981,7 @@
   },
   {
    "name": "DeusData/codebase-memory-mcp",
-   "stars": 48361,
+   "stars": 48416,
    "type": "MCP",
    "desc": "코드베이스를 지식 그래프로 인덱싱하는 MCP",
    "area": "코드 이해·컨텍스트",
@@ -1047,7 +1047,7 @@
   },
   {
    "name": "wshobson/agents",
-   "stars": 42325,
+   "stars": 42367,
    "type": "플러그인",
    "desc": "Claude Code용 멀티 하네스 플러그인 마켓플레이스",
    "area": "모음집·가이드",
@@ -1059,7 +1059,7 @@
   },
   {
    "name": "lightpanda-io/browser",
-   "stars": 41628,
+   "stars": 41694,
    "type": "도구",
    "desc": "AI와 자동화를 위해 설계된 헤드리스 브라우저",
    "area": "브라우저·웹 데이터",
@@ -1185,7 +1185,7 @@
   },
   {
    "name": "bytedance/UI-TARS-desktop",
-   "stars": 39580,
+   "stars": 39589,
    "type": "MCP·도구",
    "desc": "멀티모달 AI 에이전트 스택(데스크톱 제어)",
    "area": "브라우저·웹 데이터",
@@ -1283,7 +1283,7 @@
   },
   {
    "name": "alchaincyf/nuwa-skill",
-   "stars": 37820,
+   "stars": 37900,
    "type": "스킬",
    "desc": "한 사람의 사고방식과 의사결정 습관, 말투를 스킬로 증류해 줍니다.",
    "area": "특화 분야",
@@ -1317,7 +1317,7 @@
   },
   {
    "name": "VoltAgent/awesome-agent-skills",
-   "stars": 36985,
+   "stars": 37009,
    "type": "모음집",
    "desc": "공식팀·커뮤니티 에이전트 스킬 1,000개 이상 모음",
    "area": "모음집·가이드",
@@ -1339,7 +1339,7 @@
   },
   {
    "name": "DayuanJiang/next-ai-draw-io",
-   "stars": 36797,
+   "stars": 36826,
    "type": "MCP",
    "desc": "대화로 draw.io 다이어그램을 그리고 편집",
    "area": "디자인",
@@ -1439,7 +1439,7 @@
   },
   {
    "name": "github/github-mcp-server",
-   "stars": 34326,
+   "stars": 34354,
    "type": "MCP",
    "desc": "GitHub 공식 MCP 서버",
    "area": "앱·서비스 연동",
@@ -1461,7 +1461,7 @@
   },
   {
    "name": "mksglu/context-mode",
-   "stars": 33712,
+   "stars": 33760,
    "type": "MCP",
    "desc": "도구 출력을 샌드박스해 컨텍스트 98% 절감",
    "area": "코드 이해·컨텍스트",
@@ -1624,8 +1624,18 @@
    "tags": []
   },
   {
+   "name": "h4ckf0r0day/obscura",
+   "stars": 31657,
+   "type": "도구",
+   "desc": "AI 에이전트와 웹 스크래핑용 헤드리스 브라우저",
+   "area": "브라우저·웹 데이터",
+   "sub": "웹 스크래핑",
+   "also": [],
+   "tags": []
+  },
+  {
    "name": "oraios/serena",
-   "stars": 31216,
+   "stars": 31245,
    "type": "MCP",
    "desc": "의미 기반 검색·편집을 제공하는 코딩용 MCP",
    "area": "코드 이해·컨텍스트",
@@ -1635,7 +1645,7 @@
   },
   {
    "name": "nanocoai/nanoclaw",
-   "stars": 31099,
+   "stars": 31097,
    "type": "도구",
    "desc": "컨테이너 기반 경량 개인 에이전트(메시징·메모리·작업)",
    "area": "에이전트 개발",
@@ -1657,7 +1667,7 @@
   },
   {
    "name": "jackwener/OpenCLI",
-   "stars": 30970,
+   "stars": 30986,
    "type": "도구",
    "desc": "웹사이트를 CLI로 만들고 로그인된 브라우저를 AI 에이전트가 쓰게 해주는 도구",
    "area": "브라우저·웹 데이터",
@@ -1686,18 +1696,8 @@
    "tags": []
   },
   {
-   "name": "h4ckf0r0day/obscura",
-   "stars": 30644,
-   "type": "도구",
-   "desc": "AI 에이전트와 웹 스크래핑용 헤드리스 브라우저",
-   "area": "브라우저·웹 데이터",
-   "sub": "웹 스크래핑",
-   "also": [],
-   "tags": []
-  },
-  {
    "name": "assafelovic/gpt-researcher",
-   "stars": 30582,
+   "stars": 30602,
    "type": "도구",
    "desc": "어떤 LLM으로든 원하는 주제를 깊이 조사하는 자율 에이전트",
    "area": "논문·연구",
@@ -1762,6 +1762,16 @@
    "tags": []
   },
   {
+   "name": "alibaba/page-agent",
+   "stars": 29656,
+   "type": "라이브러리",
+   "desc": "자연어로 웹 인터페이스를 조작하는 자바스크립트 인페이지 GUI 에이전트",
+   "area": "브라우저·웹 데이터",
+   "sub": "브라우저 자동화",
+   "also": [],
+   "tags": []
+  },
+  {
    "name": "chroma-core/chroma",
    "stars": 29655,
    "type": "라이브러리",
@@ -1772,18 +1782,8 @@
    "tags": []
   },
   {
-   "name": "alibaba/page-agent",
-   "stars": 29649,
-   "type": "라이브러리",
-   "desc": "자연어로 웹 인터페이스를 조작하는 자바스크립트 인페이지 GUI 에이전트",
-   "area": "브라우저·웹 데이터",
-   "sub": "브라우저 자동화",
-   "also": [],
-   "tags": []
-  },
-  {
    "name": "alirezarezvani/claude-skills",
-   "stars": 29492,
+   "stars": 29534,
    "type": "스킬",
    "desc": "380개 이상 스킬·에이전트·명령 모음",
    "area": "모음집·가이드",
@@ -1835,7 +1835,7 @@
   },
   {
    "name": "alchaincyf/huashu-design",
-   "stars": 28984,
+   "stars": 29045,
    "type": "스킬",
    "desc": "HTML 기반 디자인 스킬",
    "area": "디자인",
@@ -1925,7 +1925,7 @@
   },
   {
    "name": "OthmanAdi/planning-with-files",
-   "stars": 27955,
+   "stars": 27973,
    "type": "스킬",
    "desc": "파일 기반 계획으로 장시간 작업 관리",
    "area": "개발 워크플로",
@@ -2078,7 +2078,7 @@
   },
   {
    "name": "browserbase/stagehand",
-   "stars": 25985,
+   "stars": 25992,
    "type": "SDK",
    "desc": "웹사이트에서 데이터를 추출하고 조작하는 SDK로 Claude Code·Codex에서도 사용 가능",
    "area": "브라우저·웹 데이터",
@@ -2098,7 +2098,7 @@
   },
   {
    "name": "activepieces/activepieces",
-   "stars": 25438,
+   "stars": 25451,
    "type": "도구·MCP",
    "desc": "약 400개의 MCP 서버를 제공하는 AI 에이전트·워크플로 자동화 플랫폼",
    "area": "앱·서비스 연동",
@@ -2108,7 +2108,7 @@
   },
   {
    "name": "pascalorg/editor",
-   "stars": 25399,
+   "stars": 25416,
    "type": "MCP",
    "desc": "3D 건축 에디터(CLI·MCP 도구 제공)",
    "area": "디자인",
@@ -2164,7 +2164,7 @@
   },
   {
    "name": "modelcontextprotocol/python-sdk",
-   "stars": 24804,
+   "stars": 24815,
    "type": "SDK",
    "desc": "공식 MCP 파이썬 SDK",
    "area": "에이전트 개발",
@@ -2254,7 +2254,7 @@
   },
   {
    "name": "Skyvern-AI/skyvern",
-   "stars": 23366,
+   "stars": 23374,
    "type": "도구",
    "desc": "AI로 브라우저 기반 워크플로를 자동화하는 도구",
    "area": "브라우저·웹 데이터",
@@ -2264,7 +2264,7 @@
   },
   {
    "name": "czlonkowski/n8n-mcp",
-   "stars": 23228,
+   "stars": 23234,
    "type": "MCP",
    "desc": "Claude Desktop·Claude Code·Cursor 등에서 n8n 워크플로를 대신 만들어 주는 MCP 서버",
    "area": "앱·서비스 연동",
@@ -2283,8 +2283,18 @@
    "tags": []
   },
   {
+   "name": "lexmount/moli",
+   "stars": 23164,
+   "type": "도구",
+   "desc": "Rust로 만든 가볍고 빠른 AI 에이전트용 헤드리스 브라우저",
+   "area": "브라우저·웹 데이터",
+   "sub": "브라우저 자동화",
+   "also": [],
+   "tags": []
+  },
+  {
    "name": "1Panel-dev/MaxKB",
-   "stars": 23122,
+   "stars": 23129,
    "type": "도구",
    "desc": "기업용 에이전트를 만드는 오픈소스 플랫폼",
    "area": "에이전트 개발",
@@ -2303,16 +2313,6 @@
    "desc": "로그인 없이 Codex와 Claude Code 사용량 통계를 보여주는 도구",
    "area": "Claude Code 확장",
    "sub": "사용량·상태줄",
-   "also": [],
-   "tags": []
-  },
-  {
-   "name": "lexmount/moli",
-   "stars": 23059,
-   "type": "도구",
-   "desc": "Rust로 만든 가볍고 빠른 AI 에이전트용 헤드리스 브라우저",
-   "area": "브라우저·웹 데이터",
-   "sub": "브라우저 자동화",
    "also": [],
    "tags": []
   },
@@ -2359,6 +2359,16 @@
    "tags": []
   },
   {
+   "name": "citrolabs/ego-lite",
+   "stars": 22296,
+   "type": "도구",
+   "desc": "로그인 상태를 유지한 채 자동화하는 에이전트용 브라우저",
+   "area": "브라우저·웹 데이터",
+   "sub": "브라우저 자동화",
+   "also": [],
+   "tags": []
+  },
+  {
    "name": "screenpipe/screenpipe",
    "stars": 22279,
    "type": "도구·MCP",
@@ -2379,16 +2389,6 @@
    "tags": [
     "공식"
    ]
-  },
-  {
-   "name": "citrolabs/ego-lite",
-   "stars": 22149,
-   "type": "도구",
-   "desc": "로그인 상태를 유지한 채 자동화하는 에이전트용 브라우저",
-   "area": "브라우저·웹 데이터",
-   "sub": "브라우저 자동화",
-   "also": [],
-   "tags": []
   },
   {
    "name": "KKKKhazix/khazix-skills",
@@ -2449,6 +2449,20 @@
    "tags": []
   },
   {
+   "name": "Evil0ctal/Douyin_TikTok_Download_API",
+   "stars": 21313,
+   "type": "MCP",
+   "desc": "틱톡·더우인 영상 수집(MCP 지원)",
+   "area": "브라우저·웹 데이터",
+   "sub": "웹 스크래핑",
+   "also": [
+    "콘텐츠·마케팅"
+   ],
+   "tags": [
+    "중국어"
+   ]
+  },
+  {
    "name": "op7418/Humanizer-zh",
    "stars": 21291,
    "type": "스킬",
@@ -2469,20 +2483,6 @@
    "sub": "3D",
    "also": [],
    "tags": []
-  },
-  {
-   "name": "Evil0ctal/Douyin_TikTok_Download_API",
-   "stars": 20956,
-   "type": "MCP",
-   "desc": "틱톡·더우인 영상 수집(MCP 지원)",
-   "area": "브라우저·웹 데이터",
-   "sub": "웹 스크래핑",
-   "also": [
-    "콘텐츠·마케팅"
-   ],
-   "tags": [
-    "중국어"
-   ]
   },
   {
    "name": "latent-spaces/brag",
@@ -2574,7 +2574,7 @@
   },
   {
    "name": "browser-use/browser-harness",
-   "stars": 18960,
+   "stars": 18974,
    "type": "도구",
    "desc": "Claude Code·Codex·Cursor가 로그인된 실제 Chrome을 직접 쓰게 해 주는 도구",
    "area": "브라우저·웹 데이터",
@@ -2595,6 +2595,16 @@
    ]
   },
   {
+   "name": "wanshuiyin/Auto-claude-code-research-in-sleep",
+   "stars": 18934,
+   "type": "스킬",
+   "desc": "자율 ML 연구·리뷰·실험 스킬",
+   "area": "논문·연구",
+   "sub": "AI 과학자",
+   "also": [],
+   "tags": []
+  },
+  {
    "name": "microsoft/agent-lightning",
    "stars": 18926,
    "type": "라이브러리",
@@ -2607,18 +2617,8 @@
    ]
   },
   {
-   "name": "wanshuiyin/Auto-claude-code-research-in-sleep",
-   "stars": 18884,
-   "type": "스킬",
-   "desc": "자율 ML 연구·리뷰·실험 스킬",
-   "area": "논문·연구",
-   "sub": "AI 과학자",
-   "also": [],
-   "tags": []
-  },
-  {
    "name": "xerj-org/xerj",
-   "stars": 18607,
+   "stars": 18674,
    "type": "MCP·도구",
    "desc": "코드·문서를 색인하는 봇·에이전트용 AI 검색 엔진 겸 MCP 서버(단일 Rust 바이너리)",
    "area": "코드 이해·컨텍스트",
@@ -2650,7 +2650,7 @@
   },
   {
    "name": "getmaxun/maxun",
-   "stars": 18177,
+   "stars": 18191,
    "type": "도구",
    "desc": "웹사이트를 구조화된 API로 바꿔 추출·자동화·검색·모니터링하는 도구",
    "area": "브라우저·웹 데이터",
@@ -2703,7 +2703,7 @@
   },
   {
    "name": "microsoft/mcp-for-beginners",
-   "stars": 17526,
+   "stars": 17632,
    "type": "가이드",
    "desc": "MCP 입문 커리큘럼(마이크로소프트)",
    "area": "모음집·가이드",
@@ -2758,6 +2758,18 @@
    ]
   },
   {
+   "name": "xpzouying/xiaohongshu-mcp",
+   "stars": 17047,
+   "type": "MCP",
+   "desc": "샤오홍슈(RedNote) 연동 MCP",
+   "area": "콘텐츠·마케팅",
+   "sub": "SNS·카드뉴스",
+   "also": [],
+   "tags": [
+    "중국어"
+   ]
+  },
+  {
    "name": "memvid/memvid",
    "stars": 16946,
    "type": "라이브러리",
@@ -2790,6 +2802,18 @@
    ]
   },
   {
+   "name": "triggerdotdev/trigger.dev",
+   "stars": 16737,
+   "type": "SDK",
+   "desc": "지속 실행되는 AI 에이전트와 워크플로를 만들고 배포하는 플랫폼",
+   "area": "에이전트 개발",
+   "sub": "프레임워크",
+   "also": [
+    "개발 워크플로"
+   ],
+   "tags": []
+  },
+  {
    "name": "opensandbox-group/OpenSandbox",
    "stars": 16694,
    "type": "도구",
@@ -2801,37 +2825,13 @@
   },
   {
    "name": "browser-use/web-ui",
-   "stars": 16645,
+   "stars": 16646,
    "type": "도구",
    "desc": "브라우저에서 browser-use AI 에이전트를 실행하는 웹 UI",
    "area": "브라우저·웹 데이터",
    "sub": "브라우저 자동화",
    "also": [],
    "tags": []
-  },
-  {
-   "name": "triggerdotdev/trigger.dev",
-   "stars": 16638,
-   "type": "SDK",
-   "desc": "지속 실행되는 AI 에이전트와 워크플로를 만들고 배포하는 플랫폼",
-   "area": "에이전트 개발",
-   "sub": "프레임워크",
-   "also": [
-    "개발 워크플로"
-   ],
-   "tags": []
-  },
-  {
-   "name": "xpzouying/xiaohongshu-mcp",
-   "stars": 16621,
-   "type": "MCP",
-   "desc": "샤오홍슈(RedNote) 연동 MCP",
-   "area": "콘텐츠·마케팅",
-   "sub": "SNS·카드뉴스",
-   "also": [],
-   "tags": [
-    "중국어"
-   ]
   },
   {
    "name": "AgriciDaniel/claude-obsidian",
@@ -6937,7 +6937,7 @@
    "repo": "anthropics/skills",
    "path": "skills/docx",
    "url": "https://github.com/anthropics/skills/tree/main/skills/docx",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -6949,7 +6949,7 @@
    "repo": "anthropics/skills",
    "path": "skills/pdf",
    "url": "https://github.com/anthropics/skills/tree/main/skills/pdf",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -6961,7 +6961,7 @@
    "repo": "anthropics/skills",
    "path": "skills/pptx",
    "url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -6973,7 +6973,7 @@
    "repo": "anthropics/skills",
    "path": "skills/xlsx",
    "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -6985,7 +6985,7 @@
    "repo": "anthropics/skills",
    "path": "skills/internal-comms",
    "url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -6997,7 +6997,7 @@
    "repo": "anthropics/skills",
    "path": "skills/doc-coauthoring",
    "url": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -7009,7 +7009,7 @@
    "repo": "anthropics/skills",
    "path": "skills/brand-guidelines",
    "url": "https://github.com/anthropics/skills/tree/main/skills/brand-guidelines",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -7021,7 +7021,7 @@
    "repo": "K-Dense-AI/scientific-agent-skills",
    "path": "",
    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-   "repo_stars": 55022,
+   "repo_stars": 56603,
    "verified": true,
    "note": "Whole collection (~160 skills under skills/); repo renamed from claude-scientific-skills. No single skill by that name."
   },
@@ -7081,7 +7081,7 @@
    "repo": "anthropics/skills",
    "path": "skills/canvas-design",
    "url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -7093,7 +7093,7 @@
    "repo": "anthropics/skills",
    "path": "skills/algorithmic-art",
    "url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -7105,7 +7105,7 @@
    "repo": "anthropics/skills",
    "path": "skills/theme-factory",
    "url": "https://github.com/anthropics/skills/tree/main/skills/theme-factory",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -7141,7 +7141,7 @@
    "repo": "anthropics/skills",
    "path": "skills/slack-gif-creator",
    "url": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -7165,7 +7165,7 @@
    "repo": "anthropics/skills",
    "path": "skills/frontend-design",
    "url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -7177,7 +7177,7 @@
    "repo": "cathrynlavery/diagram-design",
    "path": "skills/diagram-design",
    "url": "https://github.com/cathrynlavery/diagram-design/tree/main/skills/diagram-design",
-   "repo_stars": 62107,
+   "repo_stars": 66083,
    "verified": true,
    "note": "Rejected mirrors/forks: mahip-kakan/diagram-design, ardith666/diagram-design."
   },
@@ -7225,7 +7225,7 @@
    "repo": "anthropics/skills",
    "path": "skills/web-artifacts-builder",
    "url": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -7237,7 +7237,7 @@
    "repo": "anthropics/skills",
    "path": "skills/webapp-testing",
    "url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -7369,7 +7369,7 @@
    "repo": "anthropics/skills",
    "path": "skills/skill-creator",
    "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -7381,7 +7381,7 @@
    "repo": "anthropics/skills",
    "path": "skills/mcp-builder",
    "url": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -7393,7 +7393,7 @@
    "repo": "anthropics/skills",
    "path": "skills/claude-api",
    "url": "https://github.com/anthropics/skills/tree/main/skills/claude-api",
-   "repo_stars": 184354,
+   "repo_stars": 190891,
    "verified": true,
    "note": ""
   },
@@ -7465,7 +7465,7 @@
    "repo": "coreyhaines31/marketingskills",
    "path": "skills/content-strategy",
    "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy",
-   "repo_stars": 56980,
+   "repo_stars": 59412,
    "verified": true,
    "note": ""
   },
@@ -7477,7 +7477,7 @@
    "repo": "coreyhaines31/marketingskills",
    "path": "skills/marketing-plan",
    "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-plan",
-   "repo_stars": 56980,
+   "repo_stars": 59412,
    "verified": true,
    "note": "AARRR 기반 확인."
   },
@@ -7489,7 +7489,7 @@
    "repo": "coreyhaines31/marketingskills",
    "path": "skills/competitor-profiling",
    "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitor-profiling",
-   "repo_stars": 56980,
+   "repo_stars": 59412,
    "verified": true,
    "note": "경쟁사 URL 입력 확인."
   },
@@ -7501,7 +7501,7 @@
    "repo": "coreyhaines31/marketingskills",
    "path": "skills/social",
    "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/social",
-   "repo_stars": 56980,
+   "repo_stars": 59412,
    "verified": true,
    "note": "v1의 social-content가 v2에서 social로 개명."
   },
